@@ -245,3 +245,14 @@
   }
 
 }
+
+/* iPhone portrait — shrink species labels so adjacent ones don't overlap. */
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  .box_name > h1 {
+    font-size: 10pt;
+    line-height: 10pt;
+  }
+  .box_name {
+    padding: 1px;
+  }
+}

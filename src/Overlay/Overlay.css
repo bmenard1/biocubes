@@ -535,6 +535,30 @@
       transform: translate(0%, 0%) !important;
       top: 20% !important;
     }
+    /* Year-scrub slide (counter 22/23): on iPhone-portrait the
+       biocubes.net logo sits at top-left (y 20-70px).  Without an
+       override the year text would land on the logo at the end of the
+       rise animation.  Pin the text high (top:5%, ~40px) AND push it
+       to the right half of the viewport so its column does not overlap
+       the logo's.  This more-specific selector overrides the generic
+       .chapter_title rule above (which would otherwise pin the text at
+       top:20% with !important). */
+    .chapter_title.chapter_year_counter {
+      top: 5% !important;
+      left: auto !important;
+      right: 3% !important;
+      transform: translate(0%, 0%) !important;
+      width: auto !important;
+      max-width: 65% !important;
+      text-align: right !important;
+    }
+    /* On slide 23 the play button has .fadeOut so it's invisible, but
+       it still claims its inline-block width inside the year-counter,
+       which would push the visible text leftwards into the logo's
+       column.  Collapse it on iPhone-portrait. */
+    .chapter_title.chapter_year_counter .play_button_container.fadeOut {
+      display: none !important;
+    }
   }
   .full_logo {
     position: relative;
