@@ -138,6 +138,7 @@
   height: 100%;
   grid-template-columns: 1fr 2fr;
   position: relative;
+  margin-top: 3em;
 }
 .poster_box {
   width: 30vw;
