@@ -1,1 +1,1 @@
-export const publicURL = "https://biomass.pages.dev/"
+export const publicURL = import.meta.env.BASE_URL;

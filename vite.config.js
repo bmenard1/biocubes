@@ -19,7 +19,7 @@ export default defineConfig({
       loader: { '.js': 'jsx' },
     },
   },
-  base: '/',
+  base: '/biocubes/',
   build: {
     outDir: 'dist',
     sourcemap: false,           // do NOT ship sourcemaps to production (was 5.7 MB before)

@@ -1,7 +1,7 @@
 {
   "name": "biocubes",
   "version": "0.2.0",
-  "homepage": "https://biocubes.net/",
+  "homepage": "https://bmenard1.github.io/biocubes/",
   "private": true,
   "type": "module",
   "dependencies": {
