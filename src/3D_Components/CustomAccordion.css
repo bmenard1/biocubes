@@ -1,0 +1,16 @@
+.accordion_content {
+    font-size: 8pt;
+    line-height: normal;
+    text-align: justify;
+}
+.accordion_title {
+    text-align: left;
+    font-weight: 800;
+    font-size: 11pt !important;
+
+}
+
+.accordion {
+    background-color: white;
+    padding: 5px;
+}

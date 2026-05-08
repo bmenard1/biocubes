@@ -1,0 +1,1 @@
+export const publicURL = "https://biomass.pages.dev/"

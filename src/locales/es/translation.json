@@ -1,0 +1,124 @@
+{
+    
+    "headers": {
+        "dna": {
+            "start": "toda la vida en la Tierra comenzó a partir de una sopa química",
+            "line2": "después de miles de millones de años, se ha convertido en una diversidad"
+        },
+        "biomass": {
+            "1": "la biomasa es el resultado de",
+            "2": "4 mil millones",
+            "3": "de años de evolución"
+        },
+        "change": {
+            "1": "los humanos están cambiando drásticamente",
+            "2": "la superficie de la Tierra"
+        },
+        "cars": "los humanos han construido casi dos mil millones de coches",
+        "return": {
+            "1": "regresemos al año 1900",
+            "2" : "cuando la población era de 1.6 mil millones"
+        },
+        "tech": {
+            "1": "la mayor parte de la tecnomasa ha ",
+            "2": "sido creada durante nuestra vida"
+        },
+        "outweigh": {
+            "1": "las estructuras hechas por el hombre ahora superan",
+            "2": "la masa del mundo vivo"
+        },
+        "share": "comparte esta historia",
+
+        "rise": {
+            "1": "para ver el ascenso de la",
+            "2": "La tecnomasa se refiere a la cantidad total de infraestructura tecnológica."
+        },
+        "inyear": "la tecnomasa en el año "
+    },
+
+    "get a poster": "consigue un póster",
+
+    
+    "technomass" : "tecnomasa",
+    "biomass" : "biomasa",
+    "biological": "biológico",
+    "technological": "tecnológico",
+
+    "of": "de",
+    "and": "y",
+
+    "captions": {
+        "1": {
+            "1" : "Toda la vida en la tierra está capturada en esta imagen.",
+            "2" : {
+                "1" : "Estos cubos representan el ", 
+                "2" : "de los seis reinos biológicos."
+            },
+            "3": "Haz clic o pasa el cursor sobre ellos para más detalles",
+            "4": "Los valores son estimaciones del peso seco (es decir, excluyendo el agua)"
+        },
+        "2": "La mayor parte de la biomasa se encuentra en ",
+        "3": "son heterótrofos: se alimentan de otros organismos vivos.",
+        "4": "Una sorprendente cantidad de biomasa se encuentra en microorganismos, que son microscópicamente pequeños.",
+        "5": "son microorganismos, la mayoría de los cuales se encuentran en entornos subterráneos profundos.",
+        "6": "son microorganismos que se encuentran en casi cualquier entorno que contenga agua líquida.",
+        "7": {
+            "1" : "están hechos de material orgánico pero técnicamente no están vivos.",
+            "2" : "Siendo diminutos, son abundantes en muchos entornos, a pesar de tener una pequeña contribución a la biomasa total."
+        },
+        "8": {
+            "1": "Todas las formas de vida se originaron del Último Ancestro Común Universal ",
+            "2" :" hace aproximadamente ",
+            "3" : "4 mil millones",
+            "4": "de años."
+        },
+        "9": "son un Reino diverso.",
+        "10" : "Los animales están distribuidos en diferentes entornos en la tierra.",
+        "11" : "Los animales son principalmente marinos, dominados por ",
+        "12" : "Luego encontramos una abundancia de formas de vida subterráneas ",
+        "13" : "contribuyen más del triple de la biomasa de",
+        "14" : "comprenden solo una pequeña fracción, menos del 1%, de la biomasa animal.",
+        "16" : {
+            "1": "Hoy, ",
+            "2" : "pesan aproximadamente 10 veces más que todos los "
+        },
+        "17" : {
+            "1": "Para generar suficiente proteína, los humanos han creado ",
+            "2": "que ahora pesa casi el doble de la población mundial."
+        },
+        "24": " fueron desarrollados a principios de 1900 y se han convertido en un material básico en la producción humana.",
+        "25": "Gran parte de la producción humana, incluyendo la de automóviles, utiliza ",
+        "26" : " es el siguiente material artificial más pesado. Es un material a base de petróleo utilizado para desarrollar carreteras.",
+        "27" : " se han utilizado durante miles de años. Su masa es casi mil veces la de todos los humanos.",
+        "28" : " son materiales utilizados en la construcción.",
+        "29" : " es la segunda sustancia más utilizada en el mundo después del agua."
+    },
+
+
+
+    "concrete": "el concreto",
+    "metals": "los metales",
+    "aggregates": "los áridos",
+    "asphalt": "el asfalto",
+    "bricks": "los ladrillos",
+    "plastics": "los plásticos",
+    "fish": "los peces",
+    "humans": "los humanos",
+    "wild mammals": "los mamíferos salvajes",
+    "arthropods": "los artrópodos",
+    "birds": "las aves",
+    "annelids": "los anélidos",
+    "cars": "los coches",
+    "mollusks": "los moluscos",
+    "cnidarians": "los cnidarios",
+    "fungi": "los hongos",
+    "plants": "las plantas",
+    "viruses": "los virus",
+    "protists": "los protistas",
+    "livestock": "el ganado",
+    "marine arthropods": "los artrópodos marinos",
+    "nematodes": "los nematodos",
+    "bacteria": "las bacterias",
+    "animals": "los animales",
+    "archaea": "las arqueas"
+}

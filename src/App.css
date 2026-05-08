@@ -1,0 +1,91 @@
+
+:root {
+  --hover_blue: #287ed4;
+  --border_grey: #999da0;
+  --background-color: #E6E6E6;
+  font-family: "neue-haas-grotesk-text", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  --app-height: 100%;
+  }
+  
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+a:hover{
+  color:var(--hover_blue) !important;
+}
+
+
+
+
+.HoverInfo {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  pointer-events: none;
+  background-color: rgba(128, 128, 128, 0.308);
+  padding: 10px;
+}
+
+.HoverInfo >h1 {
+  font-size: 15pt;
+  color: var(--hover_blue);
+}
+
+.hidden{ 
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+
+.loading_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+}
+.loading_icon {
+  width: 50px;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 
+  100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+  100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+  100% { 
+      -webkit-transform: rotate(360deg); 
+      transform:rotate(360deg); 
+  } 
+}
+

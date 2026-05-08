@@ -1,0 +1,71 @@
+body {
+    font-family: "neue-haas-grotesk-text", sans-serif;
+}
+p {
+    font-size: 15pt;
+    line-height: 15pt;
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.big_caption_type {
+    font-size: 30pt;
+    line-height: 35pt;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.small_type {
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    line-height: normal;
+}
+
+.tiny_type {
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8pt;
+}
+@media only screen and (max-width: 900px) {
+    .big_caption_type {
+        font-size: 15pt;
+        line-height: 18pt;
+    }
+    p {
+        font-size: 12pt;
+        line-height: 13pt !important;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1200px){
+    .big_caption_type {
+        font-size: 22pt;
+        line-height: 23pt;
+    }
+}
+
+
+a {
+    color: var(--border_grey) !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: from-font !important;
+    text-underline-offset: 10% !important;
+    cursor: pointer;
+
+}
+
+.link_type {
+    color: var(--border_grey) !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: from-font !important;
+    text-underline-offset: 10% !important;
+    cursor: pointer;
+}
+
+.link_type:hover {
+    color: var(--hover_blue) !important;
+}

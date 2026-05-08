@@ -1,0 +1,42 @@
+.overlay_credit {
+    text-align: left;
+    color: var(--border_grey);
+    position: absolute;
+    bottom: 0;
+    pointer-events: auto;
+  }
+
+  .mobile_grid {
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    display: none;
+  }
+
+
+  .mobile_bottom_caption {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    left: 0%;
+    bottom: 0%;
+  }
+  @media only screen and (max-width: 900px)  {
+    .bottom_row {
+      display: none !important;
+    }
+    .clickInfoContainer {
+      display: none;
+    }
+
+  }
+
+  
+  @media only screen and (max-width: 900px) and (orientation: portrait) {
+    .mobile_grid {
+      display: block;
+    }
+    .internal_grid { 
+      display: none !important;
+    }
+  }

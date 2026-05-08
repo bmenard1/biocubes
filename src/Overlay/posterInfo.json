@@ -1,0 +1,21 @@
+{
+    "bioPoster": {
+        "image": "Posters/thumbs/bio_thumb.jpg",
+        "posters": [
+            {"title": "download", "url": "Posters/downloads/Bio_Final.png"}
+        ]   
+
+    },
+    "technoPoster": {
+        "image": "Posters/thumbs/techno_thumb.jpg",
+        "posters": [
+            {"title": "download", "url": "Posters/downloads/Techno_Final.png"}
+        ]   
+     },
+     "bioTechnoPoster": {
+        "image": "Posters/thumbs/bio_techno_thumb.jpg",
+        "posters": [
+            {"title": "download", "url": "Posters/downloads/BioTechno_Final.png"}
+        ]   
+     }
+}

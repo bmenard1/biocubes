@@ -1,0 +1,178 @@
+
+
+.hoverText {
+    cursor: pointer;
+    background-color: rgb(232, 232, 232);
+    padding: 0px 10px 0px 10px;
+    border: solid 1px var(--border_grey);
+    border-radius: 0.3vw;
+    white-space: nowrap;
+    display:inline-block;
+    margin: 2px;
+
+  }
+
+  
+  .hoverText:hover {
+    background-color: rgb(239, 239, 239);
+  }
+  #plant_text {
+    color: green;
+    border: solid 1px green;
+  }
+  #arthropod_text{
+    color: rgb(201, 34, 34);
+    border: solid 1px rgb(201, 34, 34);
+
+  }
+  #fish_text {
+    color: rgb(143, 7, 7);
+    border: solid 1px rgb(143, 7, 7);
+
+  }
+  
+  #protists_text {
+    color:rgb(227, 154, 231);
+    border: solid 1px rgb(227, 154, 231);
+
+  }
+  
+  #fungi_text {
+    color:rgb(189, 152, 118);
+    border: solid 1px rgb(189, 152, 118);
+;
+  }
+  #virus_text {
+    color:rgb(81, 81, 81);
+    border: solid 1px rgb(81, 81, 81);
+;
+  }
+  #animal_text {
+    color:rgb(194, 25, 16);
+    border: solid 1px rgb(194, 25, 16);
+
+  }
+  #metal_text {
+    color:rgb(132, 132, 132);
+    border: solid 1px rgb(132, 132, 132);
+  }
+  #asphalt_text {
+    color: rgb(57, 57, 57);
+    border: solid 1px rgb(57, 57, 57);
+
+  }
+
+  #brick_text {
+    color: rgb(179, 88, 75);
+    border: solid 1px rgb(179, 88, 75);
+
+  }
+  #plastic_text {
+    color: rgb(58, 137, 168);
+    border: solid 1px rgb(58, 137, 168);
+
+  }
+
+  #aggregate_text {
+    color:rgb(76, 93, 99);
+    border: solid 1px rgb(76, 93, 99);
+
+  }
+
+  #concrete_text { 
+    color:rgb(68, 68, 68);
+    border: solid 1px rgb(68, 68, 68);
+
+  }
+  .ContentCaption {
+    text-align: left;
+    pointer-events: auto;
+    padding-right: 30px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+  }
+
+
+  .ContentCaption:empty {
+    display: none;
+  }
+  
+  .ContentCaption h3 {
+    font-size: 20pt;
+    line-height: 30pt;
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .extra_info {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+
+
+  .caption_divider {
+    height: 15vh;
+    width: 100%;
+  }
+  #download_button {
+    background-color: white !important;
+    border: 1px solid black;
+    color: black;
+  }
+
+  .extra_info:hover {
+    color: var(--hover_blue);
+  }
+
+  .extra_info:hover ~ .hidden_info {
+    display: block;
+
+  }
+
+  .hidden_info {
+    color:grey;
+
+  }
+  .hidden_info {
+    display: none;
+  }
+
+  #clickorhover {
+    display: auto;
+  }
+
+  @media only screen and (max-width: 900px)  {
+    .hoverText {
+      padding: 3px;
+      border-radius: 5px;
+    }
+  }
+  
+  @media only screen and (max-height: 500px)  {
+    .ContentCaption {
+      padding: 5px
+    }
+
+    #clickorhover {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width:1000px){
+  }
+  
+
+  .instruction {
+    text-align: center;
+    font-size: 20pt;
+    animation: blinker 1s linear infinite;
+
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0.5;
+    }
+  }

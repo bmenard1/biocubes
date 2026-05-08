@@ -1,0 +1,388 @@
+[
+{
+    "title": "start",
+    "cameraPosition": [0, 12.71172, 30],
+    "lookPosition": [0,  12.71172, 0],
+    "highlighted": [],
+    "animationTime": 0.5,
+    "quantities": [],
+    "fov": 7
+
+},
+{
+    "title": "start",
+    "cameraPosition": [6, 3, 20],
+    "lookPosition": [1,  4, 0],
+    "highlighted": [],
+    "animationTime": 1.1,
+    "quantities": [],
+    "fov": 7
+
+
+},
+{
+    "title": "biomass",
+    "cameraPosition": [7.83317, 7.71172, 25],
+    "lookPosition": [1.8,  4.9, 0],
+    "highlighted": [],
+    "animationTime": 3.9,
+    "quantities": [],
+    "fov": 7
+
+
+},
+{
+    "title": "plants",
+    "cameraPosition": [6.43317, 5.71172, 24],
+    "lookPosition": [1,  4.9, 0],
+    "highlighted": ["Fungi", "Animals", "Bacteria", "Archaea", "Protists", "Viruses"],
+    "animationTime": 5.3,
+    "quantities": [],
+    "fov": 7
+
+
+
+},
+{
+    "title": "fungi + animals",
+    "cameraPosition": [5.43317, 6.71172, 25],
+    "lookPosition": [0.3,  4.9, 0],
+    "highlighted": [ "Bacteria", "Archaea", "Protists", "Plants", "Viruses"],
+    "animationTime": 5.3,
+    "quantities": [],
+    "fov": 7
+
+
+
+},
+{
+    "title": "micro",
+    "cameraPosition": [7.43317, 6.71172, 25],
+    "lookPosition": [1.8,  4.9, 0],
+    "highlighted": ["Fungi", "Animals",  "Plants", "Viruses"],
+    "animationTime": 6.9,
+    "quantities": [],
+    "fov": 7
+
+
+
+},
+{
+    "title": "bacteria + archaea",
+    "cameraPosition": [7.43317, 6.71172, 23],
+    "lookPosition": [2.8,  3.9, 0],
+    "highlighted": ["Animals", "Fungi", "Plants", "Protists", "Viruses"],
+    "animationTime": 7.2,
+    "quantities": [],
+    "fov": 7
+
+
+
+},
+{
+    "title": "protists",
+    "cameraPosition": [7.43317, 6.71172, 23],
+    "lookPosition": [2.8,  3.9, 0],
+    "highlighted": ["Animals", "Fungi", "Plants",  "Bacteria", "Archaea", "Viruses"],
+    "animationTime": 7.8,
+    "quantities": [],
+    "fov": 7
+
+
+
+},
+{
+    "title": "viruses",
+    "cameraPosition": [7.43317, 5.71172, 25],
+    "lookPosition": [1.8,  4.9, 0],
+    "highlighted": ["Animals", "Fungi", "Plants",  "Bacteria", "Archaea", "Protists"],
+    "animationTime": 9.0,
+    "quantities": [],
+    "fov": 7
+
+
+
+},
+{
+    "title": "tree of life",
+    "cameraPosition":[8, 7, 32],
+    "lookPosition": [0,  7.05505, 0],
+    "highlighted": [],
+    "animationTime": 10.7,
+    "quantities": [],
+    "fov": 7
+
+
+
+}
+,
+{
+    "title": "boxes",
+    "cameraPosition": [0.43317, 6.71172, 32],
+    "lookPosition": [-3,  4.45505, 0],
+    "highlighted": [],
+    "animationTime": 12.3,
+    "quantities": [],
+    "fov": 20
+
+
+
+}
+,
+{
+    "title": "animals",
+    "cameraPosition": [-2.43317, 5.71172, 37],
+    "lookPosition": [0.29286,  6.05505, 0],
+    "highlighted": [],
+    "animationTime": 15.0,
+    "quantities": [],
+    "fov": 20
+
+
+
+}
+,
+{
+    "title": "marine",
+    "cameraPosition": [3.43317, 4.51172, 28],
+    "lookPosition": [3.29286,  4.75505, 1],
+    "highlighted": [ "Wild Birds", "Wild Mammals", "Humans","Livestock", "Nematodes", "Annelids", "Arthropods",  "Fungi", "Plants",  "Bacteria", "Archaea", "Protists", "Viruses"],
+    "animationTime": 15.6,
+    "quantities": [],
+    "fov": 20
+
+
+
+}
+,
+{
+    "title": "underground",
+    "cameraPosition": [4.43317, 5.51172, 28],
+    "lookPosition": [3.29286,  5.75505, 1],
+    "highlighted": [ "Wild Birds", "Wild Mammals", "Humans","Livestock", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Fungi", "Plants",  "Bacteria", "Archaea", "Protists", "Viruses"],
+    "animationTime": 16.4,
+    "quantities": [],
+    "fov": 20
+
+
+},
+{
+    "title": "bugs",
+    "cameraPosition": [7.43317, 5.71172, 21],
+    "lookPosition": [4.29286,  6.05505, 1],
+    "highlighted": [ "Wild Birds", "Wild Mammals","Livestock", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish",  "Nematodes", "Annelids", "Fungi", "Plants",  "Bacteria", "Archaea", "Protists", "Viruses"],
+    "animationTime": 17.2,
+    "quantities": ["Humans", "Arthropods"],
+    "fov": 20
+
+
+}
+,
+{
+    "title": "mammals",
+    "cameraPosition": [5.43317, 5.71172, 21],
+    "lookPosition": [3.29286,  6.05505, 1],
+    "highlighted": [ "Humans","Livestock", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Fungi", "Plants",  "Bacteria", "Archaea", "Protists", "Viruses"],
+    "animationTime": 17.9,
+    "quantities": ["Wild_Birds", "Wild_Mammals"],
+    "fov": 20
+
+
+}
+,
+{
+    "title": "humans",
+    "cameraPosition": [5.43317, 5.71172, 21],
+    "lookPosition": [5.29286,  6.05505, 1],
+    "highlighted": ["Wild Birds","Livestock", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Fungi", "Plants",  "Bacteria", "Archaea", "Protists", "Viruses"],
+    "animationTime": 19,
+    "quantities": ["Humans", "Wild_Mammals"],
+    "fov": 20
+
+
+}
+,
+{
+    "title": "livestock",
+    "cameraPosition": [6.43317, 5.71172, 21],
+    "lookPosition": [5.29286,  6.05505, 1],
+    "highlighted": ["Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals", "Fungi", "Plants",  "Bacteria", "Archaea", "Protists", "Viruses"],
+    "animationTime": 19.8,
+    "quantities": ["Humans", "Livestock"],
+    "fov": 20
+
+},
+{
+    "title": "humansscale",
+    "cameraPosition": [6.43317, 5.71172, 38],
+    "lookPosition": [5.29286,  6.05505, 1],
+    "highlighted": ["Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 21,
+    "quantities": [],
+    "fov": 20
+
+},
+{
+    "title": "humansscale",
+    "cameraPosition": [6.43317, 5.71172, 38],
+    "lookPosition": [5.29286,  6.05505, 1],
+    "highlighted": ["Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 22.2,
+    "quantities": [],
+    "fov": 20
+
+},
+{
+    "title": "humans",
+    "cameraPosition": [6.43317, 5.71172, 38],
+    "lookPosition": [5.29286,  6.05505, 1],
+    "highlighted": ["Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 23.4,
+    "quantities": [],
+    "fov": 20
+
+},
+{
+    "title": "cars",
+    "cameraPosition": [6.43317, 2.71172, 28],
+    "lookPosition": [7.29286,  2.05505, 1],
+    "highlighted": ["Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 24,
+    "quantities": [],
+    "fov": 20
+},
+{
+    "title": "technomass",
+    "cameraPosition": [6.43317, 2.71172, 28],
+    "lookPosition": [7.29286,  2.05505, 1],
+    "highlighted": ["Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 30,
+    "quantities": ["Plastics", "Asphalt", "Concrete", "Aggregates", "Metals", "Bricks"],
+    "fov": 10
+},
+{
+    "title": "grow_items",
+    "cameraPosition": [18.83317, 1.9172, 40],
+    "lookPosition": [8.29286,  6.05505, 1],
+    "highlighted": [ "Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 43.2,
+    "quantities": ["Plastics", "Asphalt", "Concrete", "Aggregates", "Metals", "Bricks"],
+    "fov": 10
+
+},
+
+{
+    "title": "plastics",
+    "cameraPosition": [-1.0, 4.71172, 22],
+    "lookPosition": [-0.5,  1.505505, 1],
+    "highlighted": ["Metals", "Asphalt", "Bricks","Concrete", "Aggregates", "Concrete", "Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 45.1,
+    "quantities": [],
+    "fov": 20
+
+}
+,
+{
+    "title": "metal",
+    "cameraPosition": [2.43317, 5.71172, 24],
+    "lookPosition": [2.29286,  2.05505, 1],
+    "highlighted": ["Plastics", "Asphalt", "Bricks","Concrete", "Aggregates", "Concrete", "Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 46.15,
+    "quantities": [],
+    "fov": 20
+
+}
+,
+{
+    "title": "asphalt",
+    "cameraPosition": [3.43317, 5.71172 , 23],
+    "lookPosition": [5.29286,  3.05505, 1],
+    "highlighted": ["Plastics", "Metals", "Bricks","Concrete", "Aggregates", "Concrete","Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 47.44,
+    "quantities": [],
+    "fov": 20
+
+}
+,
+{
+    "title": "bricks",
+    "cameraPosition": [4.43317, 5.71172 , 20],
+    "lookPosition": [7.29286,  2.05505, 1],
+    "highlighted": ["Plastics", "Metals", "Asphalt" ,"Concrete", "Aggregates", "Concrete","Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 48.7,
+    "quantities": [],
+    "fov": 20
+
+}
+,
+{
+    "title": "aggregates",
+    "cameraPosition": [10, 8.71172 , 22],
+    "lookPosition": [12,  4.05505, 1],
+    "highlighted": ["Metals", "Plastics", "Asphalt", "Bricks","Concrete", "Concrete","Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 50.2,
+    "quantities": [],
+    "fov": 20
+
+}
+,
+{
+    "title": "concrete",
+    "cameraPosition": [15, 8.71172 , 22],
+    "lookPosition": [16,  5.05505, 3],
+    "highlighted": ["Metals", "Plastics", "Asphalt", "Bricks", "Aggregates", "Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 52.2,
+    "quantities": [],
+    "fov": 20
+}
+,
+{
+    "title": "outweighs",
+    "cameraPosition": [15, 8.71172 , 22],
+    "lookPosition": [16,  5.05505, 3],
+    "highlighted": ["Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 54,
+    "quantities": [],
+    "fov": 20
+}
+,
+{
+    "title": "global",
+    "cameraPosition": [6.43317, 1.71172, 10],
+    "lookPosition": [6.39286,  3.35505, 1],
+    "highlighted": ["Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 56.5,
+    "quantities": [],
+    "fov": 20
+
+},
+{
+    "title": "words",
+    "cameraPosition": [6.43317, 1.71172, 10],
+    "lookPosition": [6.39286,  3.35505, 1],
+    "highlighted": ["Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 56.5,
+    "quantities": [],
+    "fov": 20
+
+},
+{
+    "title": "words",
+    "cameraPosition": [6.43317, 1.71172, 10],
+    "lookPosition": [6.39286,  3.35505, 1],
+    "highlighted": ["Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 58.2,
+    "quantities": [],
+    "fov": 20
+
+},
+{
+    "title": "posters",
+    "cameraPosition": [6.43317, 8.71172, 23],
+    "lookPosition": [7.39286,  12.35505, 1],
+    "highlighted": ["Wild Birds", "Cnidarians", "Mollusks", "Marine Arthropods", "Fish", "Nematodes", "Annelids", "Arthropods", "Wild Mammals"],
+    "animationTime": 58.8,
+    "quantities": [],
+    "fov": 20
+}
+]

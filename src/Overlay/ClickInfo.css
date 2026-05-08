@@ -1,0 +1,190 @@
+
+.ClickInfo {
+    border-radius: 15px;
+  
+    z-index: 30;
+    background-color: white;
+    /* position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 20vw;
+    
+    box-shadow: 0 0 20px 20px #287ed430;
+    */
+    box-shadow: 0 0 20px 20px #00000050;
+    border: solid 2px white;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.2s;
+    max-height: 100%;
+  }
+
+.clickInfo_mobile {
+    display: none;
+}
+
+.clickInfo_mobile_image  img{
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+
+}
+
+.clickInfo_mobile_image {
+    height: 300px;
+}
+.ClickInfo  p {
+    text-align: left;
+    white-space: pre-line;
+    color: var(--border_grey);
+}
+
+.ClickInfo_image {
+
+    position: relative;
+}
+.ClickInfo_image_overlay {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.ClickInfo_content { 
+    padding-left:  20px;
+    padding-right:  20px;
+    padding-bottom: 20px;
+}
+
+.ClickInfo_content p{ 
+    line-height: 1.2;
+
+}
+
+
+.ClickInfo_image > img {
+    width: 100%;
+}
+
+.ClickInfo > img {
+    width: 100px;
+}
+
+.ClickInfo > .read {
+    width: 100%;
+    height: 90%;
+}
+
+.read > img {
+    width: 50%;
+}
+
+.read > p {
+    text-align: justify;
+    font-size: 8pt;
+    white-space: pre-line;
+    tab-size: 2;
+    text-align: left;
+}
+
+
+
+.header {
+    text-align: center;
+    padding-top: 10px;    
+}
+.content {
+    padding: 10px;
+}
+
+.info_value{
+    background-color: var(--hover_blue);
+    color: white;
+    text-align:left;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+    float: right;
+    white-space: nowrap;
+    line-height: 1;
+
+    /*
+
+    box-shadow: 0 0 10px 10px rgba(103, 137, 199, 0.7);
+    left:50%;
+    transform: translate(-50%, 0);
+    line-height: 0.8;
+    text-align: center;
+display:table-cell;
+vertical-align:middle;
+
+    */
+
+
+}
+
+.wet  { 
+    background-color: black;
+}
+
+.info_title {
+}
+.info_title {
+text-align: left;
+font-size: 25pt;
+font-family: "aktiv-grotesk", sans-serif;
+padding-left: 20px;
+font-weight: 200;
+color: black;
+line-height: 1;
+
+text-align: center;
+display:table-cell;
+vertical-align:middle;
+
+
+}
+
+.info_value {
+
+}
+
+.info_value span {
+    font-size: 15pt;
+    font-weight: 400;
+    font-family: "aktiv-grotesk", sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+
+}
+
+
+
+@media only screen and (max-width: 900px) and (orientation: landscape)  {
+    .clickInfo_desktop{
+        display: none;
+    }
+    .clickInfo_mobile{
+        display: block;
+    }
+
+    .ClickInfo_content {
+        padding: 0px !important;
+    }
+
+    .info_value {
+        position: absolute;
+        right: 5%;
+        bottom: 10%;
+    }
+    .info_title {
+        padding: 0px;
+    }
+}
+    

@@ -1,0 +1,119 @@
+{
+    "headers": {
+        "dna": {
+            "start": "toute la vie sur Terre a commencé à partir d'une soupe chimique",
+            "line2": "après des milliards d'années, elle s'est transformée en une diversité"
+        },
+        "biomass": {
+            "1": "la biomasse est le résultat de",
+            "2": "4 milliards",
+            "3": "d'années d'évolution"
+        },
+        "change": {
+            "1": "les humains changent radicalement",
+            "2": "la surface de la Terre"
+        },
+        "cars": "les humains ont construit près de deux milliards de voitures",
+        "return": {
+            "1": "retournons à l'année 1900",
+            "2" : "quand la population était de 1,6 milliard"
+        },
+        "tech": {
+            "1": "la majeure partie de la technomasse a",
+            "2": "été créée au cours de notre vie"
+        },
+        "outweigh": {
+            "1": "les structures artificielles pèsent désormais plus lourd",
+            "2": "que la masse du monde vivant"
+        },
+        "share": "partager cette histoire",
+
+        "rise": {
+            "1": "regardez l'essor de la",
+            "2": "La technomasse fait référence à la quantité totale d'infrastructures technologiques."
+        },
+        "inyear": "la technomasse en "
+    },
+    
+    "technomass" : "technomasse",
+    "biomass" : "biomasse",
+    "biological": "biologique",
+    "technological": "technologique",
+    "get a poster": "obtenir une affiche",
+
+    "of": "de",
+    "and": "et",
+
+    "captions": {
+        "1": {
+            "1" : "Toute la vie sur Terre est capturée dans cette image.",
+            "2" : {
+                "1" : "Ces cubes représentent la",
+                "2" : "des six royaumes biologiques."
+            },
+            "3": "Cliquez ou survolez-les pour plus de détails",
+            "4": "Les valeurs sont des estimations du poids sec (c'est-à-dire sans l'eau)"
+        },
+        "2": "La plupart de la biomasse se trouve dans ",
+        "3": "sont des hétérotrophes : ils se nourrissent d'autres organismes vivants.",
+        "4": "Une quantité surprenante de biomasse se trouve dans les micro-organismes, qui sont microscopiquement petits.",
+        "5": "sont des micro-organismes dont la plupart se trouvent dans des environnements profonds souterrains.",
+        "6": "sont des micro-organismes que l'on trouve dans presque tous les environnements contenant de l'eau liquide.",
+        "7": {
+            "1" : "sont constitués de matière organique mais ne sont techniquement pas vivants.",
+            "2" : "Étant petits, ils sont abondants dans de nombreux environnements, malgré leur faible contribution à la biomasse totale."
+        },
+        "8": {
+            "1": "Toutes les formes de vie proviennent du dernier ancêtre commun universel",
+            "2" :"il y a environ",
+            "3" : "4 milliards",
+            "4": "d'années."
+        },
+        "9": "sont un royaume diversifié.",
+        "10" : "Les animaux sont répartis dans différents environnements sur Terre.",
+        "11" : "Les animaux sont principalement marins, dominés par",
+        "12" : "Nous trouvons ensuite une abondance de formes de vie sous terre",
+        "13" : "contribuent plus de trois fois la quantité de biomasse de",
+        "14" : "ne représentent qu'une infime fraction, moins de 1%, de la biomasse animale.",
+        "16" : {
+            "1": "Aujourd'hui,",
+            "2" : "pèsent environ 10 fois plus que tous les"
+        },
+        "17" : {
+            "1": "Pour générer suffisamment de protéines, les humains ont créé",
+            "2": "qui pèse maintenant presque deux fois plus que la population mondiale."
+        },
+        "24": "ont été développés au début des années 1900 et sont devenus un matériau de base dans la production humaine.",
+        "25": "Une grande partie de la production humaine, y compris celle des voitures, utilise",
+        "26" : "est le prochain matériau artificiel le plus lourd. C'est un matériau à base de pétrole utilisé pour construire des routes.",
+        "27" : "sont utilisés depuis des milliers d'années. Leur masse est presque mille fois celle de tous les humains.",
+        "28" : "sont des matériaux utilisés dans la construction.",
+        "29" : "est la deuxième substance la plus utilisée dans le monde après l'eau."
+    },
+
+    "concrete": "le béton",
+    "metals": "les métaux",
+    "aggregates": "les granulats",
+    "asphalt": "l'asphalte",
+    "bricks": "les briques",
+    "plastics": "les plastiques",
+    "fish": "les poissons",
+    "humans": "les humains",
+    "wild mammals": "les mammifères sauvages",
+    "arthropods": "les arthropodes",
+    "birds": "les oiseaux",
+    "annelids": "les annélides",
+    "cars": "les voitures",
+    "mollusks": "les mollusques",
+    "cnidarians": "les cnidaires",
+    "fungi": "les champignons",
+    "plants": "les plantes",
+    "viruses": "les virus",
+    "protists": "les protistes",
+    "livestock": "le bétail",
+    "marine arthropods": "les arthropodes marins",
+    "nematodes": "les nématodes",
+    "bacteria": "les bactéries",
+    "animals": "les animaux",
+    "archaea": "les archées"
+}

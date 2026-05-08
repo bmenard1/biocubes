@@ -1,0 +1,629 @@
+.endgrid {
+    width: 100%;
+    padding: 0px;
+}
+
+.end_section > * {
+    pointer-events: auto;
+}
+
+.share_buttons {
+  padding: 10px !important;
+}
+
+.sharingLine {
+  white-space: nowrap ;
+  vertical-align: middle; /* Align to the bottom of the line */
+  border-radius: 10px;
+  line-height: 20pt;
+}
+.sharingLine a{
+  position: relative;
+  display: inline-block;
+  position:relative;
+  height: 25px;
+  width: 25px;
+}
+
+.sharingLine a:not(:first-child) {
+  margin-left: 20px;
+}
+.sharingLine img{
+  bottom: 0%;
+  left: 0%;
+  /*
+  filter: invert(63%) sepia(11%) saturate(105%) hue-rotate(163deg) brightness(97%) contrast(88%);
+
+  */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  filter: invert(41%) sepia(46%) saturate(1773%) hue-rotate(182deg) brightness(93%) contrast(79%);
+
+}
+
+.sharingLine img:hover{
+  /*
+  filter: invert(41%) sepia(46%) saturate(1773%) hue-rotate(182deg) brightness(93%) contrast(79%);
+
+  */
+  filter: none;
+}
+
+
+.end_section {
+    height: 100%;
+    width: 95%;
+    z-index: 10;
+
+    text-align: left;
+    pointer-events: auto;
+    position: absolute;
+    display: flex;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    pointer-events: none;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.credit_box {
+  position: absolute;
+  z-index: 10;
+  left: 0%;
+  transform: translate(-50%, 0%);
+  top: 100%;
+  width: 50vw;
+  z-index: 10;
+  opacity: 0;
+  display: none;
+}
+.credit_box a{
+  font-size: 12pt;
+  line-height: 14pt !important;
+  text-align: left;
+}
+
+
+#learnmore:hover .credit_box {
+  opacity: 1;
+  display: block;
+
+}
+
+.end_section h1 {
+    font-family: "larken", sans-serif;
+}
+.sharing_box {
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translate(-50%, 0%);
+  z-index: 10;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  min-width: 20vw;
+  opacity: 0;
+  display: none;
+}
+
+#share:hover .sharing_box {
+  visibility: auto;
+  opacity: 1;
+  display: block;
+
+}
+
+.interior_section {
+  width: 100%;
+  height: 80%;
+
+}
+
+.poster_caption {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -100%);
+  pointer-events: none;
+}
+
+.poster-wrapper {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr 2fr;
+  position: relative;
+}
+.poster_box {
+  width: 30vw;
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  opacity: 0 ;
+  z-index: 10;
+  background-color: white;
+  transform: translate(-50%,0%);
+  padding: 20px;
+  border-radius: 20px;
+  color: var(--border_grey);
+  display: none;
+  cursor:default;
+
+}
+
+
+.abc {
+  width: 0px;
+  display: inline-block;
+  white-space: nowrap;
+
+}
+
+.abc_wide {
+  width: auto;
+  
+}
+#poster:hover .poster_box {
+  opacity: 1;
+  display: block;
+
+}
+.sharing_box:after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  bottom: -20px;
+  border-top: 20px solid white;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: none;
+}
+
+.poster_box:after{
+  content: " ";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  bottom: -20px;
+  border-top: 20px solid white;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: none;
+
+}
+
+
+.sharing_box a {
+  display: inline-block;
+  margin: 5px;
+}
+
+.sharing_box a:hover img{
+  filter: invert(41%) sepia(46%) saturate(1773%) hue-rotate(182deg) brightness(93%) contrast(79%);
+}
+
+.sharing_box a img{
+  width: 35px;
+  filter: invert(63%) sepia(11%) saturate(105%) hue-rotate(163deg) brightness(97%) contrast(88%);
+}
+ 
+.download_button {
+    padding: 5%;
+    margin: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(202, 202, 202);
+    font-size: 15pt;
+    color: black;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100%;
+  margin: auto;
+}
+
+.top_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top_container_helper {
+  margin-top : auto;
+}
+
+.poster_download_helper {
+  padding: 10px;
+}
+.column_part .poster_container {
+  height: 50%;
+  width: 100%;
+}
+.column_part {
+  height: 100%;
+}
+
+.big_poster {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.new_poster_download { 
+  height: 100%;
+  background-color: blue;
+} 
+
+.download_button:hover {
+    background-color: rgb(161, 189, 196);
+}
+
+.dropdown-item:hover .download-hover-section{
+    visibility: visible;
+}
+
+.keepOpen {
+    display:block;
+}
+.dropdown-item {
+    position: relative;
+}
+
+.download-modal-body img{
+    width: 100%;
+    border: solid 1px var(--grey);
+    margin-bottom: 20px;
+}
+
+.download-modal-body h2 {
+    font-weight: 100;
+    text-align: left !important;
+}
+
+.download-hover-section {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+}
+.dropdown-item:hover .download-hover-section{
+    visibility: visible;
+}
+
+.download-click-section {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    /*visibility: hidden;*/
+    display: none;
+}
+
+.share_hider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(129, 129, 129, 0.766);
+  text-align: center;
+  color:red;
+  font-weight: 800;
+  font-size: 20pt;
+  vertical-align: middle;
+}
+
+.download-click-section .row {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 50%;
+}
+
+.download-click-section .vertical-row {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100% !important;
+}
+
+.download-row{
+    margin: 0%;
+}
+
+.sharingText {
+  white-space: initial;
+  white-space: nowrap;
+  overflow-wrap: break-word;
+}
+.readButton {
+  
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 1px var(--border_grey);
+  height: 100%;
+  background-color: white;
+  cursor: pointer;
+
+}
+
+.readButton a {
+  color: black
+}
+.readButton:hover{
+  border: solid 1px var(--hover_blue);
+}
+
+.readButton:hover a {
+  color: var(--hover_blue)
+}
+
+
+.download-row .col:hover{
+    background-color: rgba(255, 255, 255, 0.139);
+    cursor: pointer;
+}
+
+
+.download-hover-section .row {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50%;
+}
+
+
+.download-hover-section .col {
+    border: solid 1px white;
+}
+
+.download-dropdown .dropdown-item img {
+    /*border: solid 1px var(--grey);*/
+    margin-bottom: 10px;
+}
+
+.poster_extra_caption {
+  position: relative;
+  text-wrap: nowrap;
+}
+
+
+
+
+.end_credit {
+  position: absolute;
+  left: 0%;
+  bottom: 10%;
+  white-space: nowrap;
+  display: none;
+}
+
+.end_credit_dropup {
+  position: absolute;
+  right: 0%;
+  bottom: 10%;
+  white-space: nowrap;
+  display: none;
+}
+
+
+@media only screen and (max-width: 768px)  {
+ 
+  .sharingLine img{
+    width: 25px;
+    margin-left: 10px;
+  }
+  .end_section {
+    top: 58%;
+    width: 100%;
+    padding: 0%;
+  }
+  .readButton h2 {
+    font-size: 10pt;
+    margin: 0%;
+  }
+  .readButton a {
+    font-size: 10pt;
+  }
+  .readButton {
+    padding: 5px;
+    border-radius: 0;
+  }
+  .readButton .ui.divider {
+    margin: 0% !important;
+  }
+  .wrapper {
+    grid-template-columns:auto;
+    width: 60vw;
+
+    max-height: 60vh;
+  }
+  .sharing_box{
+    width: 50vw;
+  }
+  .sharingLine img {
+    width: 25px;
+  }
+
+}
+
+@media only screen and (max-width: 900px)  {
+  .end_credit {
+    display: block;
+  }
+  .end_credit_dropup {
+    display:block;
+  }
+}
+
+
+.line_poster_caption {
+  display:none;
+}
+
+.poster_not_line {
+  display: block;
+}
+
+@media screen and (orientation: landscape) and (min-aspect-ratio: 4/2) {
+  .poster-wrapper{
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .line_poster_caption {
+    display:block;
+    transform: translate(-50%, -100%);
+    left: 50%;
+
+  }
+  .poster_not_line {
+    display: none;
+  }
+  .column_part {
+    display: contents;
+  }
+  .poster_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top_container_helper{
+    margin: 0%;
+  }
+
+  .column_part .poster_container {
+    height: 100%;
+  }
+  .big_poster_container {
+    display: contents;
+  }
+}
+
+
+@media screen and (orientation: portrait) {
+  .poster-wrapper {
+    grid-template-columns: auto;
+  }
+
+  .column_part {
+    height: 66%;
+  }
+  .poster-wrapper {
+    display: block;
+  }
+  .top_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  .bottom_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .top_container_helper {
+    height: 100%;
+  }
+  .big_poster_container {
+    height: 33%;
+  }
+
+  .poster_download_helper {
+    height: 100%;
+  }
+  .sharingText {
+    display: block;
+  }
+  .end_credit {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 4%;
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .end_credit_dropup {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 8%;
+    width: 100%;
+
+    text-align: center;
+  }
+}
+
+@media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 900px) {
+  .wrapper {
+    grid-template-columns:auto;
+    width: 40vw ;
+    
+  }
+
+  .sharing_box{
+    width: 50vw;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 768px) {
+
+  .poster-wrapper {
+    width: 80%;
+    margin: auto;
+  }
+  
+}
+
+@media only screen and (orientation: landscape) and (max-height: 500px) {
+  .wrapper {
+    width: 80%;
+  }
+
+  .sharingLine a {
+    margin-left: 5px;
+  }
+  .sharingLine img {
+    width: 25px;
+  }
+
+  .sharingText {
+  }
+
+  .sharingLine a:not(:first-child) {
+    margin-left: 5px;
+  }
+
+
+  
+}
+@media only screen and (orientation: landscape) and (min-width: 1600px) {
+  .sharingLine a {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+
+@media only screen and (orientation: landscape) and (max-height: 300px) {
+
+  .line_poster_caption {
+    display: none;
+  }
+  
+}

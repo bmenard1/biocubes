@@ -1,0 +1,123 @@
+{
+    
+    "headers": {
+        "dna": {
+            "start": "all life on Earth started from a chemical soup",
+            "line2": "after billions of years, it has turned into a diversity"
+        },
+        "biomass": {
+            "1": "the biomass is the result of",
+            "2": "4 billion",
+            "3": "years of evolution"
+        },
+        "change": {
+            "1": "humans are dramatically changing",
+            "2": "the surface of the Earth"
+        },
+        "cars": "humans have built about two billion cars",
+        "return": {
+            "1": "let's return to the year 1900",
+            "2" : "when the population was 1.6 billion"
+        },
+        "tech": {
+            "1": "most of the technomass has ",
+            "2": "been created during our lifetime"
+        },
+        "outweigh": {
+            "1": "man-made structures now outweigh",
+            "2": "the mass of the living world"
+        },
+        "share": "share this story",
+
+        "rise": {
+            "1": "to watch the rise of the",
+            "2": "Technomass refers to the aggregate amount of technological infrastructure."
+        },
+        "inyear": "the technomass in year "
+    },
+    
+    "technomass" : "technomass",
+    "biomass" : "biomass",
+    "biological": "biological",
+    "technological": "technological",
+    "get a poster": "get a poster",
+
+    "of": "of",
+    "and": "and",
+
+    "captions": {
+        "1": {
+            "1" : "All life on earth is captured in this image.",
+            "2" : {
+                "1" : "These cubes represent the ", 
+                "2" : "of the six biological kingdoms."
+            },
+            "3": "Click or hover on them for more details",
+            "4": "The values are estimates of the dry weight (that is, excluding water)"
+        },
+        "2": "Most of the biomass is found in ",
+        "3": " are heterotrophs: they feed on other living organisms.",
+        "4": "A surprising amount of biomass is found in micro-organisms, which are microscopically small.",
+        "5": "are micro-organisms most of which are located in deep subsurface environments.",
+        "6": "are micro-organisms found in almost any environment that contains liquid water.",
+        "7": {
+            "1" : "are made up of organic material but are technically not alive.",
+            "2" : "Being tiny, they are abundant in many environments, despite having a small contribution to the total biomass."
+        },
+        "8": {
+            "1": "All forms of life originated from the Last Universal Common Ancestor ",
+            "2" :" about ",
+            "3" : "4 billion",
+            "4": " years ago."
+        },
+        "9": "are a diverse Kingdom.",
+        "10" : "Animals are spread out across different environments on the earth.",
+        "11" : "Animals are mainly marine, dominated by ",
+        "12" : "We then find an abundance of life forms underground ",
+        "13" : "contribute more than three times the amount of biomass of",
+        "14" : "comprise only a tiny fraction, less than 1%, of the animal biomass.",
+        "16" : {
+            "1": "Today, ",
+            "2" : " weigh about 10 times more than all "
+        },
+        "17" : {
+            "1": "To generate enough protein, humans have created ",
+            "2": "that now weighs almost twice the entire world population."
+        },
+        "24": " were developed in the early 1900's and have become a staple material in human production.",
+        "25": "Much of human production, including that of cars, uses ",
+        "26" : " is the next heaviest artifical material. It is a petroleum based material used to develop roads.",
+        "27" : " have been used for thousands of years. Their mass is almost one thousand times that of all humans.",
+        "28" : " are materials used in construction.",
+        "29" : " is the second most used substance in the world after water."
+    },
+
+    "concrete": "concrete",
+    "metals": "metals",
+    "aggregates": "aggregates",
+    "asphalt": "asphalt",
+    "bricks": "bricks",
+    "plastics": "plastics",
+    "fish": "fish",
+    "humans": "humans",
+    "wild mammals": "wild mammals",
+    "arthropods": "arthropods",
+    "birds": "birds",
+    "annelids": "annelids",
+    "cars": "cars",
+    "mollusks": "mollusks",
+    "cnidarians": "cnidarians",
+    "fungi": "fungi",
+    "plants": "plants",
+    "viruses": "viruses",
+    "protists": "protists",
+    "livestock": "livestock",
+    "marine arthropods": "marine arthropods",
+    "nematodes": "nematodes",
+    "bacteria": "bacteria",
+    "animals": "animals",
+    "archaea": "archaea"
+
+
+
+}
