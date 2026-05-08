@@ -16,8 +16,4 @@ window.addEventListener('resize', appHeight);
 appHeight();
 
 ReactGA.initialize('G-BRCY2C9YJX');
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+root.render(<App />);
