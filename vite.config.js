@@ -19,16 +19,7 @@ export default defineConfig({
       loader: { '.js': 'jsx' },
     },
   },
-  base: '/',                    // site is at apex domain, no subpath
-  resolve: {
-    alias: {
-      // Compatibility shim: until Agent B's import migration lands, the legacy
-      // package name `react-three-fiber` (v6) resolves to its modern successor
-      // `@react-three/fiber` (v8). Safe to remove once all `import ... from
-      // 'react-three-fiber'` usages in src/ are updated.
-      'react-three-fiber': '@react-three/fiber',
-    },
-  },
+  base: '/',
   build: {
     outDir: 'dist',
     sourcemap: false,           // do NOT ship sourcemaps to production (was 5.7 MB before)
