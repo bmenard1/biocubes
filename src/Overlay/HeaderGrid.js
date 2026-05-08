@@ -1,4 +1,4 @@
-import { React, useRef, useState } from 'react';
+import { React, useState } from 'react';
 
 import ContentSlider from './ContentSlider';
 import Caption from './Caption';
@@ -29,10 +29,11 @@ function HeaderGrid(props) {
             </Grid.Row>
             <Grid.Row className='info_row'>
                 <Grid.Column width={1} verticalAlign='middle' className='button_column'>
-                    {props.counter != 0 &&
+                    {props.counter !== 0 &&
                         <button className="click_button" type="button"
+                            aria-label="Previous slide"
                             onClick={()=> {props.left_click()}}>
-                            <img src="Icon/Left.svg" ></img>
+                            <img src="Icon/Left.svg" alt="Previous slide" />
                         </button>
                     }
                 </Grid.Column>
@@ -55,15 +56,16 @@ function HeaderGrid(props) {
                             </Grid.Row>
                         </Grid>
                     )}
-                    <div className={(props.counter == 34 ) ? "basicfadeIn " : "basicfadeOut"}>
+                    <div className={(props.counter === 34 ) ? "basicfadeIn " : "basicfadeOut"}>
                         <EndGrid setsourcesModal = {props.setsourcesModal} setimageCreditModal={props.setimageCreditModal}/>
                     </div>
                 </Grid.Column>
                 <Grid.Column width={1} verticalAlign='middle' className='button_column'>
-                    {((props.counter != 0)) && (props.counter !=22) && props.counter < Object.keys(slides).length - 1 &&
+                    {((props.counter !== 0)) && (props.counter !== 22) && props.counter < Object.keys(slides).length - 1 &&
                         <button className="click_button" style={{ float: "right" }} type="button"
+                            aria-label="Next slide"
                             onClick={()=> {props.right_click()}}>
-                            <img src="Icon/Right.svg" ></img>
+                            <img src="Icon/Right.svg" alt="Next slide" />
                         </button>
                     }
                 </Grid.Column>
@@ -72,7 +74,7 @@ function HeaderGrid(props) {
             <Grid.Row className='bottom_row'>
                 <Grid.Column width={8} style={{ "padding": "0px" }}>
                     <div className='overlay_credit small_type'>
-                        © <a href="https://menard.pha.jhu.edu/" target="_blank">Ménard</a> and <a href="https://nikitashtarkman.com/" target="_blank">Shtarkman </a>
+                        © <a href="https://menard.pha.jhu.edu/" target="_blank" rel="noopener noreferrer">Ménard</a> and <a href="https://nikitashtarkman.com/" target="_blank" rel="noopener noreferrer">Shtarkman </a>
                     </div>
                 </Grid.Column>
                 <Grid.Column width={8} style={{ "padding": "0px" }}>

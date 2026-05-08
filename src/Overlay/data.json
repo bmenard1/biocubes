@@ -8,7 +8,7 @@
         "srces": "Las plantas son eucariotas predominantemente fotosintéticas, que forman el reino Plantae. La mayoría de ellas son multicelulares. Históricamente, el reino vegetal abarcaba todos los seres vivos que no eran animales e incluía algas y hongos. Todas las definiciones actuales excluyen los hongos y algunas algas.",
         "srcfr": "Les plantes sont des eucaryotes principalement photosynthétiques, formant le royaume Plantae. La plupart d'entre elles sont multicellulaires. Historiquement, le royaume des plantes englobait tous les êtres vivants qui n'étaient pas des animaux, et comprenait les algues et les champignons. Toutes les définitions actuelles excluent les champignons et certaines algues.",
         "srczh": "植物主要是光合作用的真核生物，构成植物界。它们大多数是多细胞生物。历史上，植物界包括所有不是动物的生物，还包括藻类和真菌。所有当前的定义都排除了真菌和一些藻类。",
-        "srcpor": "As plantas são eucariotas predominantemente fotossintéticas, formando o reino Plantae. A maioria delas é multicelular. Historicamente, o reino das plantas abrangia todos os seres vivos que não eram animais e incluía algas e fungos. Todas as definições atuais excluem os fungos e algumas algas."
+        "srcpt": "As plantas são eucariotas predominantemente fotossintéticas, formando o reino Plantae. A maioria delas é multicelular. Historicamente, o reino das plantas abrangia todos os seres vivos que não eram animais e incluía algas e fungos. Todas as definições atuais excluem os fungos e algumas algas."
 
       },
     "Archaea": {
@@ -20,7 +20,7 @@
       "srces": "Archaea es un dominio de organismos unicelulares. Estos microorganismos carecen de núcleo celular y, por lo tanto, son procariotas. Los arqueas se clasificaron inicialmente como bacterias, recibiendo el nombre de arqueobacterias (en el reino Archaebacteria), pero este término ha caído en desuso.",
       "srcfr": "Les Archaea sont un domaine d'organismes unicellulaires. Ces microorganismes n'ont pas de noyau cellulaire et sont donc des procaryotes. Les Archaea ont d'abord été classés comme des bactéries, recevant le nom d'archaebactéries (dans le royaume Archaebacteria), mais ce terme est tombé en désuétude.",
       "srczh": "古菌是一类单细胞生物。这些微生物没有细胞核，因此是原核生物。古菌最初被分类为细菌，称为古细菌（在古细菌界中），但该术语现已废弃。",
-      "srcpor": "Archaea é um domínio de organismos unicelulares. Esses microrganismos não possuem núcleo celular e, portanto, são procariontes. Inicialmente, os archaea foram classificados como bactérias, recebendo o nome de arqueobactérias (no reino Archaebacteria), mas esse termo caiu em desuso."
+      "srcpt": "Archaea é um domínio de organismos unicelulares. Esses microrganismos não possuem núcleo celular e, portanto, são procariontes. Inicialmente, os archaea foram classificados como bactérias, recebendo o nome de arqueobactérias (no reino Archaebacteria), mas esse termo caiu em desuso."
 
 
     },
@@ -33,7 +33,7 @@
       "srces": "Los animales son organismos multicelulares y eucariotas del reino biológico Animalia. Con pocas excepciones, los animales consumen material orgánico, respiran oxígeno, son capaces de moverse, pueden reproducirse sexualmente y crecen a partir de una esfera hueca de células, la blástula, durante el desarrollo embrionario.",
       "srcfr": "Les animaux sont des organismes multicellulaires et eucaryotes du royaume biologique Animalia. À quelques exceptions près, les animaux consomment de la matière organique, respirent de l'oxygène, sont capables de se déplacer, peuvent se reproduire sexuellement et se développent à partir d'une sphère creuse de cellules, la blastula, pendant le développement embryonnaire.",
       "srczh": "动物是生物界Animalia中的多细胞真核生物。除少数例外，动物消耗有机物质，呼吸氧气，能够移动，可以进行有性繁殖，并在胚胎发育期间从一个空心细胞球（胚泡）中成长。",
-      "srcpor": "Os animais são organismos multicelulares e eucariontes do reino biológico Animalia. Com poucas exceções, os animais consomem matéria orgânica, respiram oxigênio, são capazes de se mover, podem se reproduzir sexualmente e crescem a partir de uma esfera oca de células, a blástula, durante o desenvolvimento embrionário."
+      "srcpt": "Os animais são organismos multicelulares e eucariontes do reino biológico Animalia. Com poucas exceções, os animais consomem matéria orgânica, respiram oxigênio, são capazes de se mover, podem se reproduzir sexualmente e crescem a partir de uma esfera oca de células, a blástula, durante o desenvolvimento embrionário."
 
     
     },
@@ -46,7 +46,7 @@
       "srces": "Un protista es cualquier organismo eucariota (es decir, un organismo cuyas células contienen un núcleo celular) que no es un animal, planta u hongo.",
       "srcfr": "Un protiste est tout organisme eucaryote (c'est-à-dire un organisme dont les cellules contiennent un noyau cellulaire) qui n'est ni un animal, ni une plante, ni un champignon.",
       "srczh": "原生生物是指任何真核生物（即其细胞中含有细胞核的生物），它既不是动物，也不是植物或真菌。",
-      "srcpor": "Um protista é qualquer organismo eucarionte (ou seja, um organismo cujas células contêm um núcleo celular) que não é um animal, planta ou fungo."
+      "srcpt": "Um protista é qualquer organismo eucarionte (ou seja, um organismo cujas células contêm um núcleo celular) que não é um animal, planta ou fungo."
 
 
 
@@ -60,7 +60,7 @@
       "srces": "Un hongo es cualquier miembro del grupo de organismos eucariotas que incluye microorganismos como las levaduras y los mohos, así como los más familiares hongos.",
       "srcfr": "Un champignon est tout membre du groupe des organismes eucaryotes qui comprend des microorganismes tels que les levures et les moisissures, ainsi que les champignons plus familiers.",
       "srczh": "真菌是指包括微生物（如酵母和霉菌）以及更为熟悉的蘑菇在内的真核生物群体的成员。",
-      "srcpor": "Um fungo é qualquer membro do grupo de organismos eucariontes que inclui microrganismos como leveduras e mofos, bem como os cogumelos mais familiares."
+      "srcpt": "Um fungo é qualquer membro do grupo de organismos eucariontes que inclui microrganismos como leveduras e mofos, bem como os cogumelos mais familiares."
     },
     "Bacteria": {
       "image": "images/basic/Bacteria.jpg",
@@ -71,7 +71,7 @@
       "srces": "Las bacterias son organismos ubicuos, en su mayoría de vida libre, que a menudo consisten en una célula biológica. Constituyen un gran dominio de microorganismos procarióticos. Típicamente de unos pocos micrómetros de longitud, las bacterias fueron una de las primeras formas de vida que aparecieron en la Tierra y están presentes en la mayoría de sus hábitats.",
       "srcfr": "Les bactéries sont omniprésentes, principalement des organismes vivant librement, souvent constitués d'une cellule biologique. Elles constituent un large domaine de microorganismes procaryotes. Typiquement de quelques micromètres de longueur, les bactéries faisaient partie des premières formes de vie apparues sur Terre et sont présentes dans la plupart de ses habitats.",
       "srczh": "细菌是无处不在的，主要是自由生活的生物，通常由一个生物细胞组成。它们构成了一个大的原核微生物领域。细菌通常只有几微米长，是地球上最早出现的生命形式之一，存在于大多数栖息地中。",
-      "srcpor": "As bactérias são organismos ubíquos, em sua maioria de vida livre, geralmente compostos por uma única célula biológica. Elas constituem um grande domínio de microrganismos procariontes. Normalmente medindo alguns micrômetros de comprimento, as bactérias foram uma das primeiras formas de vida a aparecer na Terra e estão presentes na maioria dos seus habitats."
+      "srcpt": "As bactérias são organismos ubíquos, em sua maioria de vida livre, geralmente compostos por uma única célula biológica. Elas constituem um grande domínio de microrganismos procariontes. Normalmente medindo alguns micrômetros de comprimento, as bactérias foram uma das primeiras formas de vida a aparecer na Terra e estão presentes na maioria dos seus habitats."
 
 
 
@@ -85,7 +85,7 @@
       "srces": "Los nematodos o gusanos redondos constituyen el filo Nematoda, con nematodos parásitos de plantas también conocidos como anguilas. Son un filo animal diverso que habita en una amplia gama de entornos.",
       "srcfr": "Les nématodes ou vers ronds constituent le phylum Nematoda, avec les nématodes parasites des plantes également connus sous le nom de vers anguilles. Ils sont un phylum animal diversifié habitant une large gamme d'environnements.",
       "srczh": "线虫或圆形蠕虫构成了线虫门，其中植物寄生线虫也被称为鳗虫。它们是一个多样化的动物门，栖息在广泛的环境中。",
-      "srcpor": "Os nematoides ou vermes redondos constituem o filo Nematoda, com nematoides parasitas de plantas também conhecidos como vermes-anguila. Eles são um filo animal diversificado que habita uma ampla variedade de ambientes."
+      "srcpt": "Os nematoides ou vermes redondos constituem o filo Nematoda, com nematoides parasitas de plantas também conhecidos como vermes-anguila. Eles são um filo animal diversificado que habita uma ampla variedade de ambientes."
 
 
 
@@ -99,7 +99,7 @@
       "srces": "Las aves son un grupo de vertebrados de sangre caliente que constituyen la clase Aves, caracterizadas por plumas, mandíbulas sin dientes con picos, la puesta de huevos con cáscaras duras, una alta tasa metabólica, un corazón de cuatro cámaras y un esqueleto fuerte pero ligero.",
       "srcfr": "Les oiseaux sont un groupe de vertébrés à sang chaud constituant la classe des Aves, caractérisés par des plumes, des mâchoires sans dents avec un bec, la ponte d'œufs à coquille dure, un métabolisme élevé, un cœur à quatre chambres et un squelette à la fois solide et léger.",
       "srczh": "鸟类是温血脊椎动物，属于鸟纲（Aves），其特点是有羽毛、无齿喙状颌、产硬壳蛋、高代谢率、四腔心脏以及强壮而轻便的骨骼。",
-      "srcpor": "As aves são um grupo de vertebrados de sangue quente que constituem a classe Aves, caracterizadas por penas, mandíbulas sem dentes com bico, postura de ovos com casca dura, alta taxa metabólica, um coração de quatro câmaras e um esqueleto forte, porém leve."
+      "srcpt": "As aves são um grupo de vertebrados de sangue quente que constituem a classe Aves, caracterizadas por penas, mandíbulas sem dentes com bico, postura de ovos com casca dura, alta taxa metabólica, um coração de quatro câmaras e um esqueleto forte, porém leve."
 
 
     },
@@ -112,7 +112,7 @@
       "srces": "Un mamífero es un animal vertebrado de la clase Mammalia. Los mamíferos se caracterizan por la presencia de glándulas mamarias productoras de leche para alimentar a sus crías, una región del cerebro llamada neocorteza, piel o pelo, y tres huesos del oído medio.",
       "srcfr": "Un mammifère est un animal vertébré de la classe Mammalia. Les mammifères sont caractérisés par la présence de glandes mammaires produisant du lait pour nourrir leurs petits, une région du cerveau appelée néocortex, de la fourrure ou des poils, et trois os de l'oreille moyenne.",
       "srczh": "哺乳动物是脊椎动物，属于哺乳纲（Mammalia）。哺乳动物的特征包括为哺育幼崽而产生乳汁的乳腺、大脑的新皮层区域、毛发或皮毛，以及三块中耳骨。",
-      "srcpor": "As aves são um grupo de vertebrados de sangue quente..."
+      "srcpt": "As aves são um grupo de vertebrados de sangue quente..."
 
     },
     "Mollusks": {
@@ -124,7 +124,7 @@
       "srces": "Mollusca es el segundo filo más grande de animales invertebrados después de los artrópodos, cuyos miembros se conocen como moluscos. Se reconocen alrededor de 85,000 especies de moluscos existentes.",
       "srcfr": "Les Mollusques forment le deuxième plus grand phylum d'animaux invertébrés après les Arthropodes, dont les membres sont appelés mollusques. Environ 85 000 espèces de mollusques existantes sont reconnues.",
       "srczh": "软体动物门（Mollusca）是仅次于节肢动物门的第二大无脊椎动物门，其成员被称为软体动物或软体动物类。目前已知大约有85,000种现存软体动物。",
-      "srcpor": "Mollusca é o segundo maior filo de animais invertebrados depois dos artrópodes, cujos membros são conhecidos como moluscos. Cerca de 85.000 espécies de moluscos existentes são reconhecidas."
+      "srcpt": "Mollusca é o segundo maior filo de animais invertebrados depois dos artrópodes, cujos membros são conhecidos como moluscos. Cerca de 85.000 espécies de moluscos existentes são reconhecidas."
 
 
 
@@ -138,7 +138,7 @@
       "srces": "Los artrópodos son animales invertebrados con un exoesqueleto, un cuerpo segmentado y apéndices articulados pareados. Los artrópodos forman el filo Arthropoda.",
       "srcfr": "Les arthropodes sont des animaux invertébrés avec un exosquelette, un corps segmenté et des appendices articulés par paires. Les arthropodes forment le phylum Arthropoda.",
       "srczh": "节肢动物是具有外骨骼、分节身体和成对关节附肢的无脊椎动物。节肢动物属于节肢动物门（Arthropoda）。",
-      "srcpor": "Os artrópodes são animais invertebrados com um exoesqueleto, um corpo segmentado e apêndices articulados emparelhados. Os artrópodes formam o filo Arthropoda."
+      "srcpt": "Os artrópodes são animais invertebrados com um exoesqueleto, um corpo segmentado e apêndices articulados emparelhados. Os artrópodes formam o filo Arthropoda."
 
 
     },
@@ -151,7 +151,7 @@
       "srces": "El ganado son los animales domesticados criados en un entorno agrícola para proporcionar trabajo y producir productos diversificados para el consumo, como carne, huevos, leche, piel, cuero y lana.",
       "srcfr": "Le bétail est constitué d'animaux domestiqués élevés dans un cadre agricole pour fournir du travail et produire divers produits de consommation tels que la viande, les œufs, le lait, la fourrure, le cuir et la laine.",
       "srczh": "家畜是指在农业环境中饲养的驯化动物，用于提供劳动和生产多种消费产品，如肉类、鸡蛋、牛奶、皮毛、皮革和羊毛。",
-      "srcpor": "O gado são animais domesticados criados em um ambiente agrícola para fornecer trabalho e produzir diversos produtos para consumo, como carne, ovos, leite, pele, couro e lã."
+      "srcpt": "O gado são animais domesticados criados em um ambiente agrícola para fornecer trabalho e produzir diversos produtos para consumo, como carne, ovos, leite, pele, couro e lã."
 
 
     },
@@ -165,7 +165,7 @@
       "srces": "Los humanos son la especie de primate más común y extendida de la familia de los grandes simios Hominidae, y también la especie de primate más común en general. Los humanos se caracterizan ampliamente por su bipedalismo y alta inteligencia.",
       "srcfr": "Les humains sont l'espèce de primates la plus commune et la plus répandue de la famille des grands singes Hominidae, et également l'espèce de primates la plus commune en général. Les humains se caractérisent largement par leur bipédie et leur grande intelligence.",
       "srczh": "人类是大猿科（Hominidae）中最常见且分布最广的灵长类物种，也是总体上最常见的灵长类物种。人类的主要特点是双足行走和高智力。",
-      "srcpor": "Os humanos são a espécie de primata mais comum e difundida da família dos grandes símios Hominidae, e também a espécie de primata mais comum no geral. Os humanos são amplamente caracterizados pelo bipedalismo e alta inteligência."
+      "srcpt": "Os humanos são a espécie de primata mais comum e difundida da família dos grandes símios Hominidae, e também a espécie de primata mais comum no geral. Os humanos são amplamente caracterizados pelo bipedalismo e alta inteligência."
 
     },
     "Fish": {
@@ -177,7 +177,7 @@
       "srces": "Los peces son animales acuáticos, craniados y con branquias que carecen de extremidades con dígitos. Incluidos en esta definición están los mixines, lampreas y peces cartilaginosos y óseos vivos, así como varios grupos relacionados extintos.",
       "srcfr": "Les poissons sont des animaux aquatiques, craniates et porteurs de branchies qui n'ont pas de membres avec des doigts. Sont inclus dans cette définition les myxines, les lamproies, les poissons cartilagineux et osseux vivants ainsi que divers groupes apparentés éteints.",
       "srczh": "鱼类是水生的、具头骨的、用鳃呼吸的动物，缺乏带有手指的肢体。这一定义包括现存的盲鳗、七鳃鳗、软骨鱼和硬骨鱼以及各种已灭绝的相关类群。",
-      "srcpor": "Os peixes são animais aquáticos, craniados e com brânquias, que não possuem membros com dedos. Esta definição inclui mixinas, lampreias, peixes cartilaginosos e ósseos vivos, bem como vários grupos extintos relacionados."
+      "srcpt": "Os peixes são animais aquáticos, craniados e com brânquias, que não possuem membros com dedos. Esta definição inclui mixinas, lampreias, peixes cartilaginosos e ósseos vivos, bem como vários grupos extintos relacionados."
 
     },
 
@@ -190,7 +190,7 @@
       "srces": "Los artrópodos son animales invertebrados con un exoesqueleto, un cuerpo segmentado y apéndices articulados pareados. Los artrópodos forman el filo Arthropoda.",
       "srcfr": "Les arthropodes sont des animaux invertébrés avec un exosquelette, un corps segmenté et des appendices articulés par paires. Les arthropodes forment le phylum Arthropoda." ,
       "srczh": "节肢动物是无脊椎动物，具有外骨骼、分节的身体和成对的关节附肢。节肢动物属于节肢动物门（Arthropoda）。",
-      "srcpor": "Os artrópodes são animais invertebrados com um exoesqueleto, um corpo segmentado e apêndices articulados emparelhados. Os artrópodes formam o filo Arthropoda."
+      "srcpt": "Os artrópodes são animais invertebrados com um exoesqueleto, um corpo segmentado e apêndices articulados emparelhados. Os artrópodes formam o filo Arthropoda."
 
     },
     "Annelids": {
@@ -202,7 +202,7 @@
       "srces": "Los anélidos, también conocidos como gusanos segmentados, son un gran filo, con más de 22,000 especies existentes, incluidos gusanos marinos, lombrices de tierra y sanguijuelas.",
       "srcfr": "Les annélides, également connues sous le nom de vers segmentés, constituent un grand phylum, avec plus de 22 000 espèces existantes, y compris les vers marins, les vers de terre et les sangsues.",
       "srczh": "环节动物，也被称为分节蠕虫，是一个大型动物门，包括超过22,000种现存物种，例如沙蚕、蚯蚓和水蛭。",
-      "srcpor": "Os anelídeos, também conhecidos como vermes segmentados, formam um grande filo, com mais de 22.000 espécies existentes, incluindo poliquetas, minhocas e sanguessugas."
+      "srcpt": "Os anelídeos, também conhecidos como vermes segmentados, formam um grande filo, com mais de 22.000 espécies existentes, incluindo poliquetas, minhocas e sanguessugas."
 
     },
       "Cnidarians": {
@@ -214,7 +214,7 @@
       "srces": "Cnidaria es un filo bajo el reino Animalia que contiene más de 11,000 especies de animales acuáticos que se encuentran tanto en ambientes de agua dulce como marinos, predominantemente estos últimos.",
       "srcfr": "Les Cnidaires sont un phylum sous le royaume Animalia contenant plus de 11 000 espèces d'animaux aquatiques trouvés à la fois dans les environnements d'eau douce et marins, principalement ces derniers.",
       "srczh": "刺胞动物门是动物界下的一个动物门，包含超过11,000种水生动物，既分布在淡水环境中，也分布在海洋环境中，后者更为常见。",
-      "srcpor": "Os cnidários são um filo do reino Animalia que contém mais de 11.000 espécies de animais aquáticos encontrados tanto em ambientes de água doce quanto marinhos, sendo estes últimos os mais comuns."
+      "srcpt": "Os cnidários são um filo do reino Animalia que contém mais de 11.000 espécies de animais aquáticos encontrados tanto em ambientes de água doce quanto marinhos, sendo estes últimos os mais comuns."
 
     },
     "Viruses": {
@@ -226,7 +226,7 @@
     "srces": "Un virus es un agente infeccioso submicroscópico que se replica solo dentro de las células vivas de un organismo. Los virus infectan todas las formas de vida, desde animales y plantas hasta microorganismos, incluidas bacterias y arqueas.",
     "srcfr": "Un virus est un agent infectieux submicroscopique qui ne se réplique qu'à l'intérieur des cellules vivantes d'un organisme. Les virus infectent toutes les formes de vie, des animaux et des plantes aux microorganismes, y compris les bactéries et les archées.",
     "srczh": "病毒是一种亚显微感染因子，仅在生物体的活细胞内复制。病毒感染所有生命形式，从动物和植物到包括细菌和古菌在内的微生物。",
-    "srcpor": "Um vírus é um agente infeccioso submicroscópico que se replica apenas dentro das células vivas de um organismo. Os vírus infectam todas as formas de vida, desde animais e plantas até microrganismos, incluindo bactérias e arqueias."
+    "srcpt": "Um vírus é um agente infeccioso submicroscópico que se replica apenas dentro das células vivas de um organismo. Os vírus infectam todas as formas de vida, desde animais e plantas até microrganismos, incluindo bactérias e arqueias."
 
   },
    
@@ -239,7 +239,7 @@
     "srces": "El último ancestro común universal (LUCA) o ancestro común más reciente universal (UMRCA) es la población más reciente de la cual todos los organismos que viven actualmente en la Tierra comparten un ancestro común, el ancestro común más reciente de toda la vida actual en la Tierra.",
     "srcfr": "Le dernier ancêtre commun universel (LUCA) ou l'ancêtre commun le plus récent universel (UMRCA) est la population la plus récente à partir de laquelle tous les organismes vivants actuellement sur Terre partagent une ascendance commune, le dernier ancêtre commun de toute la vie actuelle sur Terre.",
     "srczh": "最后的共同祖先（LUCA）或最近的普遍共同祖先（UMRCA）是目前所有在地球上生存的生物的最近共同祖先，也是当前地球上所有生命的最近共同祖先。",
-    "srcpor": "O último ancestral comum universal (LUCA) ou ancestral comum mais recente universal (UMRCA) é a população mais recente da qual todos os organismos vivos atualmente na Terra compartilham um ancestral comum — o ancestral comum mais recente de toda a vida atual na Terra."
+    "srcpt": "O último ancestral comum universal (LUCA) ou ancestral comum mais recente universal (UMRCA) é a população mais recente da qual todos os organismos vivos atualmente na Terra compartilham um ancestral comum — o ancestral comum mais recente de toda a vida atual na Terra."
 
   },
 
@@ -252,7 +252,7 @@
     "srces": "Un automóvil o coche es un vehículo motorizado con ruedas. La mayoría de las definiciones de automóviles dicen que funcionan principalmente en carreteras, tienen capacidad para una a ocho personas, tienen cuatro ruedas y transportan principalmente personas, no carga.",
     "srcfr": "Une voiture ou une automobile est un véhicule à moteur avec des roues. La plupart des définitions des voitures disent qu'elles roulent principalement sur les routes, qu'elles transportent de une à huit personnes, ont quatre roues et transportent principalement des personnes, pas du fret.",
     "srczh": "汽车是一种有轮子的机动车辆。大多数汽车定义认为，它们主要在道路上行驶，可容纳一至八人，具有四个轮子，并主要用于运输人员而非货物。",
-    "srcpor": "Um carro ou automóvel é um veículo motorizado com rodas. A maioria das definições de carros afirma que eles circulam principalmente em estradas, acomodam de uma a oito pessoas, possuem quatro rodas e transportam principalmente pessoas, não carga."
+    "srcpt": "Um carro ou automóvel é um veículo motorizado com rodas. A maioria das definições de carros afirma que eles circulam principalmente em estradas, acomodam de uma a oito pessoas, possuem quatro rodas e transportam principalmente pessoas, não carga."
 
   },
   "Concrete": {
@@ -264,7 +264,7 @@
     "srces": "El concreto es un material compuesto compuesto de agregados finos y gruesos unidos con un cemento fluido (pasta de cemento) que se endurece (cura) con el tiempo. El concreto es la segunda sustancia más utilizada en el mundo después del agua y es el material de construcción más utilizado.",
     "srcfr": "Le béton est un matériau composite composé de granulats fins et grossiers liés entre eux par un ciment fluide (pâte de ciment) qui durcit (durcit) avec le temps. Le béton est la deuxième substance la plus utilisée au monde après l'eau et est le matériau de construction le plus largement utilisé.",
     "srczh": "混凝土是一种复合材料，由细集料和粗集料与流体水泥（或水泥浆）结合而成，随着时间推移硬化（固化）。混凝土是世界上仅次于水的第二大使用物质，也是最广泛使用的建筑材料。",
-    "srcpor": "O concreto é um material composto por agregados finos e grossos unidos por um cimento fluido (pasta de cimento) que endurece (cura) com o tempo. O concreto é a segunda substância mais utilizada no mundo depois da água e é o material de construção mais amplamente usado."
+    "srcpt": "O concreto é um material composto por agregados finos e grossos unidos por um cimento fluido (pasta de cimento) que endurece (cura) com o tempo. O concreto é a segunda substância mais utilizada no mundo depois da água e é o material de construção mais amplamente usado."
 
 
   },
@@ -277,7 +277,7 @@
     "srces": "El concreto asfáltico es un material compuesto comúnmente utilizado para superficies de carreteras, estacionamientos, aeropuertos y el núcleo de presas de terraplén. Las mezclas de asfalto se han utilizado en la construcción de pavimentos desde principios del siglo XX.",
     "srcfr": "Le béton bitumineux est un matériau composite couramment utilisé pour revêtir les routes, les parkings, les aéroports et le cœur des barrages en remblai. Les mélanges d'asphalte sont utilisés dans la construction de chaussées depuis le début du XXe siècle.",
     "srczh": "沥青混凝土是一种复合材料，常用于道路、停车场、机场和堤坝核心的表面铺设。沥青混合料自20世纪初以来一直用于路面施工。",
-    "srcpor": "O concreto asfáltico é um material composto comumente usado para pavimentação de estradas, estacionamentos, aeroportos e no núcleo de barragens de aterro. Misturas asfálticas são utilizadas na construção de pavimentos desde o início do século XX."
+    "srcpt": "O concreto asfáltico é um material composto comumente usado para pavimentação de estradas, estacionamentos, aeroportos e no núcleo de barragens de aterro. Misturas asfálticas são utilizadas na construção de pavimentos desde o início do século XX."
 
     
 
@@ -291,7 +291,7 @@
     "srces": "Los agregados de construcción, o simplemente agregados, son una amplia categoría de materiales particulados de grano grueso a medio utilizados en la construcción, que incluyen arena, grava, piedra triturada, escoria, concreto reciclado y agregados geosintéticos. Los agregados son los materiales más extraídos en el mundo.",
     "srcfr": "Les granulats de construction, ou simplement les granulats, constituent une vaste catégorie de matériaux particulaires à gros à moyen grains utilisés dans la construction, y compris le sable, le gravier, la pierre concassée, le laitier, le béton recyclé et les granulats géosynthétiques. Les granulats sont les matériaux les plus extraits au monde.",
     "srczh": "建筑骨料，或简称骨料，是用于建筑的粗至中粒颗粒材料的广泛类别，包括沙子、砾石、碎石、矿渣、再生混凝土和土工合成材料。骨料是世界上开采最多的材料。",
-    "srcpor": "Os agregados para construção, ou simplesmente agregados, são uma ampla categoria de materiais particulados de grãos médios a grossos utilizados na construção, incluindo areia, cascalho, pedra britada, escória, concreto reciclado e agregados geossintéticos. Os agregados são os materiais mais extraídos no mundo."
+    "srcpt": "Os agregados para construção, ou simplesmente agregados, são uma ampla categoria de materiais particulados de grãos médios a grossos utilizados na construção, incluindo areia, cascalho, pedra britada, escória, concreto reciclado e agregados geossintéticos. Os agregados são os materiais mais extraídos no mundo."
 
 
   },
@@ -304,7 +304,7 @@
     "srces": "Un metal (del griego antiguo μέταλλον métallon 'mina, cantera, metal') es un material que, cuando se prepara, se pule o se fractura recién, muestra una apariencia lustrosa y conduce la electricidad y el calor relativamente bien. Los metales son típicamente dúctiles (se pueden estirar en alambres) y maleables (se pueden martillar en láminas delgadas). Estas propiedades son el resultado del enlace metálico entre los átomos o moléculas del metal.",
     "srcfr": "Un métal (du grec ancien μέταλλον métallon 'mine, carrière, métal') est un matériau qui, lorsqu'il est fraîchement préparé, poli ou fracturé, présente une apparence brillante et conduit relativement bien l'électricité et la chaleur. Les métaux sont généralement ductiles (peuvent être tirés en fils) et malléables (peuvent être martelés en feuilles minces). Ces propriétés sont le résultat de la liaison métallique entre les atomes ou les molécules du métal.",
     "srczh": "金属（来自古希腊语 μέταλλον métallon '矿山、采石场、金属'）是一种材料，当其新鲜制备、抛光或破裂时，显示出光泽外观，并且相对较好地导电和导热。金属通常具有延展性（可以拉成细丝）和可锻性（可以锤成薄片）。这些特性是金属原子或分子之间金属键的结果。",
-    "srcpor": "Um metal (do grego antigo μέταλλον métallon 'mina, pedreira, metal') é um material que, quando recém-preparado, polido ou fraturado, apresenta uma aparência brilhante e conduz bem a eletricidade e o calor. Os metais são tipicamente dúcteis (podem ser esticados em fios) e maleáveis (podem ser martelados em folhas finas). Essas propriedades são resultado da ligação metálica entre os átomos ou moléculas do metal."
+    "srcpt": "Um metal (do grego antigo μέταλλον métallon 'mina, pedreira, metal') é um material que, quando recém-preparado, polido ou fraturado, apresenta uma aparência brilhante e conduz bem a eletricidade e o calor. Os metais são tipicamente dúcteis (podem ser esticados em fios) e maleáveis (podem ser martelados em folhas finas). Essas propriedades são resultado da ligação metálica entre os átomos ou moléculas do metal."
 
 
   },
@@ -318,7 +318,7 @@
     "srces": "Un ladrillo es un tipo de material de construcción utilizado para construir paredes, pavimentos y otros elementos en la construcción de mampostería. Apropiadamente, el término ladrillo denota una unidad compuesta principalmente de arcilla, pero ahora también se usa informalmente para denotar unidades hechas de otros materiales u otros bloques de construcción curados químicamente.",
     "srcfr": "Une brique est un type de matériau de construction utilisé pour construire des murs, des trottoirs et d'autres éléments dans la construction en maçonnerie. À proprement parler, le terme brique désigne une unité composée principalement d'argile, mais il est maintenant également utilisé de manière informelle pour désigner des unités fabriquées à partir d'autres matériaux ou d'autres blocs de construction durcis chimiquement.",
     "srczh": "砖块是一种用于建造墙壁、人行道和其他砌体施工元素的建筑材料。严格来说，砖块这一术语主要指由粘土组成的单元，但现在也非正式地用于指由其他材料或化学固化建筑块制成的单元。",
-    "srcpor": "Um tijolo é um tipo de material de construção usado para construir paredes, pavimentos e outros elementos na alvenaria. Estritamente falando, o termo tijolo refere-se a uma unidade composta principalmente de argila, mas agora também é usado informalmente para designar unidades feitas de outros materiais ou blocos de construção quimicamente curados."
+    "srcpt": "Um tijolo é um tipo de material de construção usado para construir paredes, pavimentos e outros elementos na alvenaria. Estritamente falando, o termo tijolo refere-se a uma unidade composta principalmente de argila, mas agora também é usado informalmente para designar unidades feitas de outros materiais ou blocos de construção quimicamente curados."
 
   },
 
@@ -331,7 +331,7 @@
     "srces": "Los plásticos son una amplia gama de materiales sintéticos o semisintéticos que utilizan polímeros como ingrediente principal. Su plasticidad permite que los plásticos se moldeen, extruyan o presionen en objetos sólidos de varias formas.",
     "srcfr": "Les plastiques sont une large gamme de matériaux synthétiques ou semi-synthétiques qui utilisent des polymères comme ingrédient principal. Leur plasticité permet aux plastiques d'être moulés, extrudés ou pressés en objets solides de diverses formes.",
     "srczh": "塑料是一类广泛的合成或半合成材料，主要成分为聚合物。其可塑性使得塑料可以被模塑、挤压或压制成各种形状的固体物体。",
-    "srcpor": "Os plásticos são uma ampla gama de materiais sintéticos ou semissintéticos que utilizam polímeros como principal ingrediente. Sua plasticidade permite que os plásticos sejam moldados, extrudados ou prensados em objetos sólidos de diversas formas."
+    "srcpt": "Os plásticos são uma ampla gama de materiais sintéticos ou semissintéticos que utilizam polímeros como principal ingrediente. Sua plasticidade permite que os plásticos sejam moldados, extrudados ou prensados em objetos sólidos de diversas formas."
 
   }
 }

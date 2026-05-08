@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import { Grid, Modal, Button, Header, Icon, Divider, Form, Radio } from 'semantic-ui-react'
+import React from 'react';
+import { Grid, Modal, Divider } from 'semantic-ui-react'
 function SourcesModal(props) {
     return <Modal
     basic
@@ -14,7 +14,7 @@ function SourcesModal(props) {
                 learn more
             </div>
             <Divider/>
-            <span style={{"color" : "var(--border_grey"}}>
+            <span style={{"color" : "var(--border_grey)"}}>
 
             © Ménard & Shtarkman. All Rights Reserved
                         </span>
@@ -23,7 +23,7 @@ function SourcesModal(props) {
             <Grid divided>
                 <Grid.Row columns={3}>
                     <Grid.Column>
-                        <a href="https://www.pnas.org/doi/10.1073/pnas.1711842115" target ="_blank">
+                        <a href="https://www.pnas.org/doi/10.1073/pnas.1711842115" target="_blank" rel="noopener noreferrer">
                             The biomass distribution on Earth,
                             <br/>
                             Bar-On Y.M, Phillips R, Milo R
@@ -32,7 +32,7 @@ function SourcesModal(props) {
                         </a>
                         <br/>
                         <br/>
-                        <span style={{"color" : "var(--border_grey"}}>
+                        <span style={{"color" : "var(--border_grey)"}}>
 
                         We consider the dry mass to be roughly twice the carbon mass estimate.
                         </span>
@@ -40,7 +40,7 @@ function SourcesModal(props) {
 
                     </Grid.Column>
                     <Grid.Column>
-                        <a href="https://fisherp.mit.edu/wp-content/uploads/2021/01/s41586-020-3010-5.pdf" target ="_blank">
+                        <a href="https://fisherp.mit.edu/wp-content/uploads/2021/01/s41586-020-3010-5.pdf" target="_blank" rel="noopener noreferrer">
                             Global human-made mass exceeds all living biomass,
                             <br/>
                             Elhacham E, Ben-Uri L, Grozovski J, Bar-On YM, Milo R
@@ -50,7 +50,7 @@ function SourcesModal(props) {
 
                     </Grid.Column>
                     <Grid.Column>
-                        <a href="https://ourworldindata.org/plastic-pollution" target ="_blank">
+                        <a href="https://ourworldindata.org/plastic-pollution" target="_blank" rel="noopener noreferrer">
                             Plastic Pollution
                             <br/>
                              Ritchie H and Roser M
@@ -63,7 +63,7 @@ function SourcesModal(props) {
             </Grid>
             <Divider/>
             <div className='small_type'>
-                explore very large scales: <a href = "https://mapoftheuniverse.net/" target ="_blank"> Map of the Universe</a>
+                explore very large scales: <a href = "https://mapoftheuniverse.net/" target="_blank" rel="noopener noreferrer"> Map of the Universe</a>
             </div>
         </div>
     </Modal.Content>

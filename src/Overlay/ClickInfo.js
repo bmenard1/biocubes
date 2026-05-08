@@ -1,6 +1,5 @@
-import { React, useRef, useContext } from 'react';
-import { Grid, Button, Icon, Divider } from 'semantic-ui-react'
-import { Vector3 } from 'three';
+import { React, useRef } from 'react';
+import { Grid } from 'semantic-ui-react'
 import myData from './data.json';
 import './ClickInfo.css';
 
@@ -9,9 +8,6 @@ import { useTranslation } from 'react-i18next';
 
 function ClickInfo(props) {
     const name = useRef("Humans")
-    const position = useRef(new Vector3(0, 0, 0))
-    let trans = "translate(-120%, 0)"
-    const testRef = useRef("ABC")
     let title_name = ""
     
 
@@ -34,14 +30,10 @@ function ClickInfo(props) {
         title_name = title_name.toString().toLowerCase();
     }
 
-    console.log(i18n.language)
-    //
-    //if(true){
-
     let lang = i18n.language;
 
     let languageSource = "src";
-    if(lang != "en") {
+    if(lang !== "en") {
         languageSource += lang;
     }
 
@@ -53,7 +45,7 @@ function ClickInfo(props) {
 
                     <div className='ClickInfo_image'>
 
-                        <img src={publicURL + myData[name.current].image}></img>
+                        <img src={publicURL + myData[name.current].image} alt={name.current} />
                         <div className = "ClickInfo_image_overlay">
                             
                         </div>
@@ -95,7 +87,7 @@ function ClickInfo(props) {
                     <Grid>
                         <Grid.Row>
                             <Grid.Column width={8} className='clickInfo_mobile_image'>
-                                <img src={publicURL + myData[name.current].image}></img>
+                                <img src={publicURL + myData[name.current].image} alt={name.current} />
                                 <div className = "ClickInfo_image_overlay">
                             
                                 <div style={{"position": "relative", "width": "100%", "height": "100%"}}>

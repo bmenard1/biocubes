@@ -1,4 +1,4 @@
-import {React, useRef} from 'react';
+import React from 'react';
 
 import { Divider, Modal } from 'semantic-ui-react';
 function ImageCreditModal(props) {

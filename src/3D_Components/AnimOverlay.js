@@ -14,7 +14,7 @@ function AnimOverlay(props) {
         }
       }
     
-    if (anim_counter(props.counter) == 0) {
+    if (anim_counter(props.counter) === 0) {
         return (
             <group>
             {/*
@@ -28,7 +28,7 @@ function AnimOverlay(props) {
         )
     }
 
-    if (anim_counter(props.counter) == 1) {
+    if (anim_counter(props.counter) === 1) {
         return(
             <Html position = {[2, 1, 0]} className = "box_name">
                 <h1>LUNA (Last Universal Common Ancestor)</h1>

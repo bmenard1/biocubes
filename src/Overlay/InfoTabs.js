@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Tab, Button, Grid, Divider } from 'semantic-ui-react'
 import "./InfoTabs.css"
 import PosterDownload from './PosterDownload'
 
@@ -16,14 +15,14 @@ const TabExampleBasic = (props) => {
 
   return (
     <div className='tabs' onMouseLeave={handleTabLeave}>
-      {showSegment != null &&
+      {showSegment !== null &&
 
-        <div className={(showSegment==2)?'segment poster-segment':'segment'} onMouseLeave={handleTabLeave}>
+        <div className={(showSegment === 2) ? 'segment poster-segment' : 'segment'} onMouseLeave={handleTabLeave}>
           {
-            showSegment == 1 &&
+            showSegment === 1 &&
             <div className='credit_drop_up small_type' >
               <div style={{"text-wrap": "nowrap"}}>
-                designed by <a href="https://menard.pha.jhu.edu/" target="_blank">Ménard</a> & <a href="https://nikitashtarkman.com/" target="_blank">Shtarkman </a>
+                designed by <a href="https://menard.pha.jhu.edu/" target="_blank" rel="noopener noreferrer">Ménard</a> & <a href="https://nikitashtarkman.com/" target="_blank" rel="noopener noreferrer">Shtarkman </a>
                 <br/>
                 Johns Hopkins University
               </div>
@@ -33,7 +32,7 @@ const TabExampleBasic = (props) => {
             </div>
           }
           {
-            showSegment == 2 &&
+            showSegment === 2 &&
 
             <div className='download_drop_up'>
               <div className='poster_container'>
@@ -54,14 +53,9 @@ const TabExampleBasic = (props) => {
       }
 
       <div className='infoTabs ' style={{ right: "0%" }}>
-        {/*
-        <div className={showSegment == 1 ? 'small_type  hovered_list' : 'small_type link_type'} onClick={() => { props.setimageCreditModal(true) }}> images</div>
+        <div onMouseEnter={() => { handleTabHover(1) }} className={showSegment === 1 ? 'small_type hovered_list' : 'small_type link_type'}> credits</div>
 
-        <div className={showSegment == 1 ? 'small_type hovered_list' : 'small_type link_type'} onClick={() => { props.setsourcesModal(true) }}> data</div>
-        */}
-        <div onMouseEnter={() => { handleTabHover(1) }} className={showSegment == 1 ? 'small_type hovered_list' : 'small_type link_type'}> credits</div>
-
-        <div onMouseEnter={() => { handleTabHover(2) }} className={showSegment == 2 ? 'small_type hovered_list' : 'small_type link_type'}> posters</div>
+        <div onMouseEnter={() => { handleTabHover(2) }} className={showSegment === 2 ? 'small_type hovered_list' : 'small_type link_type'}> posters</div>
       </div>
     </div>
   )

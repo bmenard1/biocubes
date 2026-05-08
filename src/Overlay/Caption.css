@@ -4,7 +4,7 @@
     cursor: pointer;
     background-color: rgb(232, 232, 232);
     padding: 0px 10px 0px 10px;
-    border: solid 1px var(--border_grey);
+    border: solid 1px var(--border_grey_light);
     border-radius: 0.3vw;
     white-space: nowrap;
     display:inline-block;

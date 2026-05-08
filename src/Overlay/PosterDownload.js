@@ -6,15 +6,15 @@ import { publicURL } from "../constants";
 function PosterDownload(props) {
     return (
         <>
-        <div class="poster-download">
-            
-        <img src={publicURL + posterInfo[props.poster]["image"]} />
-        <div class="poster-download-section">
+        <div className="poster-download">
 
-        {posterInfo[props.poster]["posters"].map(function(data) {
+        <img src={publicURL + posterInfo[props.poster]["image"]} alt={`${props.poster} poster preview`} />
+        <div className="poster-download-section">
+
+        {posterInfo[props.poster]["posters"].map(function(data, i) {
              return (
-                <div class="row download-row vertical-row">
-                    <a class="col" href={publicURL + data["url"]} download target="_blank" rel="noopener noreferrer">{data["title"]}</a>
+                <div className="row download-row vertical-row" key={i}>
+                    <a className="col" href={publicURL + data["url"]} download target="_blank" rel="noopener noreferrer">{data["title"]}</a>
                 </div>
             )
         }) }
