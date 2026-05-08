@@ -1,0 +1,15 @@
+{
+  "short_name": "Biocubes",
+  "name": "Biocubes — biomass & technomass",
+  "description": "An infographic of everything on Earth, showing the relative scales of biomass and technomass.",
+  "icons": [
+    { "src": "/Box_Icon_3.ico", "sizes": "16x16 32x32 64x64", "type": "image/x-icon" }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#E6E6E6",
+  "background_color": "#E6E6E6",
+  "lang": "en"
+}
