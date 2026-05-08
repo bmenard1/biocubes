@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Biocubes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A refactored fork of [Biocubes](https://biocubes.net) — a 3D scrollytelling visualization comparing the relative scales of **biomass** and **technomass** on Earth.
 
-## Available Scripts
+The original site and concept are by Brice Ménard (Johns Hopkins) and Nikita Shtarkman; the original repo lives at https://github.com/nikitash98/biomass.
 
-In the project directory, you can run:
+This fork is a refactor focused on:
+- **Vite migration** — replacing the deprecated Create React App scaffolding with Vite 5 for faster dev/build cycles.
+- **Repo hygiene** — pruning dead config (Netlify, default test files, unused legacy assets), customizing the PWA manifest, and adding a sitemap.
+- **Asset optimization** — dropping production sourcemaps, preloading the hero glTF model, preconnecting to font hosts.
+- **Accessibility & i18n improvements** — better `<noscript>` fallback, JSON-LD structured data, canonical URL, and continued five-language translation (en / es / fr / pt / zh).
 
-### `npm start`
+## Tech
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Vite 5** (build tool)
+- **React 18** with `createRoot`
+- **react-three-fiber 8** + **three.js** (3D rendering)
+- **@react-three/drei** and **@react-three/postprocessing** (helpers + post-FX)
+- **@react-spring/three** (animation)
+- **react-i18next** (internationalization)
+- **semantic-ui-react** (UI primitives)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Quick start
 
-### `npm test`
+```bash
+npm install
+npm run dev       # local dev server on http://localhost:3000
+npm run build     # production build to dist/
+npm run preview   # preview the built bundle locally
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deploy
 
-### `npm run build`
+The site is hosted on **GitHub Pages** at the apex domain `biocubes.net`. To deploy:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm run deploy
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This runs `vite build` and pushes `dist/` to the `gh-pages` branch.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Refactor changes © 2026 contributors. See the original repo for the upstream license.

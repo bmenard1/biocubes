@@ -1,7 +1,7 @@
 :root {
     --main-color: rgb(0, 0, 0);
     --main-color-hover: rgb(104, 117, 217, 0.2);
-    --track-color: var(--border_grey);
+    --track-color: var(--border_grey_light);
     --mark-color: #010101;
 
   }

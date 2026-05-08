@@ -39,10 +39,10 @@ const ContentSlider = (props) => {
         while(value > show[i]) {
             i++
         }
-        if(i == 0) {
+        if(i === 0) {
             return 0
         }
-        if (value == (max_value-1)) {
+        if (value === (max_value-1)) {
             return show.length * mul;
         }
         let total = ((value - show[i-1])/diffs[i-1]) * mul + (i-1) * mul
@@ -63,7 +63,7 @@ const ContentSlider = (props) => {
         <div style={{width: "100%", height: "100%"}}>
 
 
-<div className= {(props.counter == 0 ? 'custom_slider_container fadeOut'  : 'custom_slider_container ')} >
+<div className= {(props.counter === 0 ? 'custom_slider_container fadeOut'  : 'custom_slider_container ')} >
      
 
                 <ReactSlider
@@ -82,7 +82,7 @@ const ContentSlider = (props) => {
                             props.className = "customSlider-mark selected_mark"
                             tick_class = "tick_label_top small_type  selected_tick"
                         } 
-                        if(props.key == show.length * mul) {
+                        if(props.key === show.length * mul) {
                             props.className = "customSlider-mark end_mark"
                         }
                         return <span {...props}  onMouseEnter={()=>{setSliderHover(props.key)}} onMouseLeave={()=> {setSliderHover(null)}}>

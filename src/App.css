@@ -1,7 +1,8 @@
 
 :root {
   --hover_blue: #287ed4;
-  --border_grey: #999da0;
+  --border_grey: #595959;
+  --border_grey_light: #999da0;
   --background-color: #E6E6E6;
   font-family: "neue-haas-grotesk-text", sans-serif;
   font-weight: 400;

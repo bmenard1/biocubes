@@ -1,18 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Visualization from './3D_Components/Visualization';
-import HoverInfo from './HoverInfo';
 import React, { useEffect } from 'react';
 import Overlay from './Overlay/Overlay';
 import { Suspense, useRef, useState } from 'react';
-import { applyProps } from 'react-three-fiber';
+import slides from './slides.json';
 import './type.css'
 import { AppContext } from './AppContext';
-function TestComponent () {
-  useEffect(()=>{
-  })
-  return <h1>TEST COMPONENT</h1>
-}
+
 function App() {
   const [counter, setCounter] = React.useState(0);
   const previousCounter = React.useRef(0);
@@ -53,7 +47,7 @@ function App() {
   }
 
   const right_click = () => {
-    setCounter(counter => Math.min(counter + 1, 34));
+    setCounter(counter => Math.min(counter + 1, slides.length - 1));
     setPlaying(true);
     setScrubbing(false);
     setcounterHit(false);
@@ -61,31 +55,24 @@ function App() {
 
   useEffect(() => {
 
-    document.ontouchstart = function(e){ 
-      e.preventDefault(); 
-    }
-  
     if (window.innerWidth < 500) {
       setrotatePhoneContainer(true);
     }
     const handleKeyDown = (e) => {
-      if (e.key == "ArrowRight") {
+      if (e.key === "ArrowRight") {
         right_click()
       }
 
-      if (e.key == "ArrowLeft") {
+      if (e.key === "ArrowLeft") {
         left_click()
       }
     }
     window.addEventListener('resize', handleResize)
 
-    const handleKeyUp = (e) => {
-    }
     document.addEventListener('keydown', handleKeyDown)
-    document.addEventListener('keyup', handleKeyUp)
     return () => {
       document.removeEventListener('keydown', handleKeyDown)
-      document.removeEventListener('keyup', handleKeyUp)
+      window.removeEventListener('resize', handleResize)
     }
 
   }, [])
@@ -121,7 +108,7 @@ function App() {
               counterHit={counterHit} setcounterHit={setcounterHit}
               setPlaying={setPlaying}
               setCounter={setCounter}
-              animationTime={animationTime} 
+              animationTime={animationTime}
               hovered = {hovered} setHovered={setHovered}
               counter={counter}
               info={info_page} setInfoPage={setInfoPage}
@@ -134,7 +121,7 @@ function App() {
               right_click={right_click}
               loaded3D={loaded3D}
             />
-            
+
           </div>
           </AppContext.Provider>
         </div>

@@ -12,10 +12,10 @@ const TableofContents = (props) => {
               titles.map((title, i) => {
 
                 return (
-                  <Grid.Column>
+                  <Grid.Column key={i}>
                     <div className='content_item' onClick={()=>{props.setCounter(i); props.setPlaying(true)}}>
-                    {i==props.counter ? <b><p>{i+1} : {title}</p> </b> : <p>{i+1} : {title}</p> }
-                    
+                    {i === props.counter ? <b><p>{i+1} : {title}</p> </b> : <p>{i+1} : {title}</p> }
+
                     </div>
                   </Grid.Column>
                   )

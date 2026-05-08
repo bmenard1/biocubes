@@ -7,7 +7,7 @@ import React, { useRef } from 'react'
 import { useGLTF, useAnimations, Html, Image, Box, PerspectiveCamera, OrthographicCamera, Bounds } from '@react-three/drei'
 import { playAnimations, setAnimationTime } from '../3D_Components/AnimationUtilities'
 import { useEffect } from 'react'
-import { useFrame, useThree } from 'react-three-fiber'
+import { useFrame, useThree } from '@react-three/fiber'
 import slides from "../slides.json"
 import { lerp } from 'three/src/math/MathUtils'
 import data from '../Overlay/data.json';
@@ -28,7 +28,7 @@ export function Part01(props) {
   const cameraRef = useRef()
 
 
-  let hiddenClass = (props.counter != props.previousCounter.current) ? 'box_name hidden' : "box_name ";
+  let hiddenClass = (props.counter !== props.previousCounter.current) ? 'box_name hidden' : "box_name ";
   const hiddenArtificial = "box_name artificial_name"
   const percentage_of_animation_played = useRef(0)
   let highlighted = slides[props.counter]["highlighted"]
@@ -270,7 +270,7 @@ export function Part01(props) {
   }, [])
 
   useFrame((state, delta) => {
-    if (props.previousCounter.current != props.counter) {
+    if (props.previousCounter.current !== props.counter) {
       let anim_length = Math.abs(slides[props.counter]["animationTime"] - slides[props.previousCounter.current]["animationTime"])
       percentage_of_animation_played.current += animationSpeed / anim_length * delta
 
@@ -390,11 +390,11 @@ export function Part01(props) {
 
 
           let human_title = name.toLowerCase()
-          if (name == "Humans" && props.counter >= 20 && props.previousCounter.current > 19) {
+          if (name === "Humans" && props.counter >= 20 && props.previousCounter.current > 19) {
             human_title = "all humans"
           }
 
-          if (name == "Humans" && props.counter >= 20  && props.counter < 24) {
+          if (name === "Humans" && props.counter >= 20  && props.counter < 24) {
             human_title = ""
           }
           let weight_val = data[name].weight
@@ -413,11 +413,11 @@ export function Part01(props) {
             currentClass += " highlighted_name"
             currently_highlighted = true
           }
-          if (name == "Arthropods") {
+          if (name === "Arthropods") {
             weight_box = "box_value left"
           }
 
-          if(flat_name == "LUCA") {
+          if(flat_name === "LUCA") {
             human_title = "LUCA";
             if(props.counter < 9) {
               luca_box = false;
@@ -442,7 +442,7 @@ export function Part01(props) {
               receiveShadow
 
               onPointerMove={
-                (([props.counter, props.previousCounter.current].sort().toString() == [22, 23].toString()) || props.counter == 22)
+                (([props.counter, props.previousCounter.current].sort().toString() === [22, 23].toString()) || props.counter === 22)
                   ? null : props.handleHover} onPointerOut={props.handleUnhover}
               ref={ref => divRefs.current[name] = ref}
             >
@@ -456,7 +456,7 @@ export function Part01(props) {
 
               <group>
 
-              {props.counter != 22 && (
+              {props.counter !== 22 && (
                 
               <Html
                 style={{
@@ -474,7 +474,7 @@ export function Part01(props) {
               </group>
 
               <group>
-                {(!nodes[flat_name + "_Text"]) && (((!is_artificial || props.counter > 23) || (flat_name == "Cars"))) && (props.counter>5) && (luca_box) && (
+                {(!nodes[flat_name + "_Text"]) && (((!is_artificial || props.counter > 23) || (flat_name === "Cars"))) && (props.counter>5) && (luca_box) && (
                 <>
                 <Html position={title_positions[flat_name]}
                   scale={0.4 / nodes[flat_name].scale.x}
@@ -701,9 +701,9 @@ export function Part01(props) {
         <mesh name="Biomass_Text" geometry={nodes.Biomass_Text.geometry} material={materials.Icons} position={[4.018, 6.423, -3.633]} rotation={[-Math.PI / 2, 0, 2.934]} scale={3.6} />
         <mesh name="Technomass_Text" geometry={nodes.Technomass_Text.geometry} material={materials.Icons} position={[9.627, 7.454, -3.633]} rotation={[-Math.PI / 2, 0, -3.012]} scale={3.6} />
         {artificialBoxes.map((name, i) => {
-          if (name == "Cars") {
+          if (name === "Cars") {
             return <></>
-          } else if (props.counter == 22) {
+          } else if (props.counter === 22) {
             let mesh_name = name + "_Hover"
             return <mesh name={mesh_name}
               ref={ref => divRefs.current[mesh_name] = ref}

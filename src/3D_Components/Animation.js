@@ -28,13 +28,13 @@ function Animation(props) {
     
     const nameFlattening= (entry_name) => {
         let name = entry_name
-        if(entry_name == "Wild_Mammals") {
+        if(entry_name === "Wild_Mammals") {
           name = "Wild Mammals"
         }
-        if(entry_name == "Marine_Arthropods") {
+        if(entry_name === "Marine_Arthropods") {
           name = "Marine Arthropods"
         }
-        if(entry_name == "Wild_Birds") {
+        if(entry_name === "Wild_Birds") {
           name = "Wild Birds"
         }
         if(entry_name.includes("Hover")) {

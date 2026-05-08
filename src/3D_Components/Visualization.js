@@ -1,52 +1,17 @@
 import * as React from 'react';
-import { Canvas, useFrame } from 'react-three-fiber';
-import { useRef } from "react";
+import { Canvas } from '@react-three/fiber';
+import { useRef, useState } from "react";
 
-import ProprietaryCamera from './ProprietaryCamera';
-//import Model from './Model';
-import { Suspense, useEffect, useState } from 'react';
 import Animation from './Animation';
-import { Html, Box, Plane, Float, SoftShadows, CameraControls, OrbitControls, PerspectiveCamera, Mask, useMask } from '@react-three/drei';
-import { Vector3 } from "three";
 import { Loader } from '@react-three/drei';
-import { Selection, Select, EffectComposer, Outline } from '@react-three/postprocessing'
+import { EffectComposer, Outline } from '@react-three/postprocessing'
 import { BlendFunction, KernelSize } from 'postprocessing';
-import { Stats } from '@react-three/drei';
-import { Perf } from 'r3f-perf'
-import { ContactShadows } from '@react-three/drei';
 import * as THREE from "three";
 
 const ThreePointViz = (props) => {
-    let WIDTH = window.innerWidth;
-    let HEIGHT = window.innerHeight;
-    const stencil = useMask(1, true)
-
     const composerRef = useRef()
 
-
-
-    const { enabled, ...config } = {
-        enabled: true,
-        size: 50,
-        focus: 0,
-        samples: 2
-    }
-
-
-    const to_vector = (a) => {
-        return new Vector3(a[0], a[1], a[2])
-    }
-
-    const cameraControlRef = useRef()
-
-    const cameraRef = useRef();
-    const meshRef1 = useRef()
-
     const [selectionSet, setSelectionSet] = useState([])
-
-    const [clickableSelectionSet, setClickableSelectionSet] = useState([])
-    const debug = false
-
 
     return (
         <>
@@ -56,17 +21,6 @@ const ThreePointViz = (props) => {
                 shadowMap={{ type: THREE.PCFSoftShadowMap }}
             >
                 <color attach={"background"} args={["#E6E6E6"]} />
-                {debug && (
-                    <>
-                        <Perf
-                            minimal={false}
-                            matrixUpdate
-                            deepAnalyze
-                            overClock
-                        />
-                        <Stats />
-                    </>
-                )}
                 <EffectComposer ref={composerRef} enabled={true} autoClear={false} stencilBuffer={true}>
                     <Outline
                         selection={selectionSet} // selection of objects that will be outlined

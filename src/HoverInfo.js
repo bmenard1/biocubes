@@ -5,7 +5,7 @@ function HoverInfo(props) {
     const { clientX, clientY } = useMousePosition();
 
     return (
-    <div class = "HoverInfo" style={{          position: "absolute",
+    <div className="HoverInfo" style={{          position: "absolute",
     left: clientX,
     top: clientY +50,
     transform: "translate(-50%, -50%)",
